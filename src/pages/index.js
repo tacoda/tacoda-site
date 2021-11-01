@@ -3,6 +3,7 @@ import avatar from "../images/tacoda.png"
 
 // styles
 const pageStyles = {
+  backgroundColor: "#f7f7f7",
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",

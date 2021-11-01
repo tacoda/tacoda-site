@@ -4,7 +4,7 @@ import avatar from "../images/tacoda.png"
 // styles
 const pageStyles = {
   backgroundColor: "#f7f7f7",
-  color: "#232129",
+  color: "#3c3c3c",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -13,7 +13,7 @@ const headingAccentStyles = {
 }
 const paragraphStyles = {
   marginBottom: 48,
-  textSize: "1.4em",
+  fontSize: "1.4em",
 }
 const codeStyles = {
   color: "#8A6534",

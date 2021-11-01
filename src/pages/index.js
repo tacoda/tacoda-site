@@ -79,42 +79,36 @@ const links = [
     url: "https://github.com/tacoda",
     description:
       "My code repositories",
-    color: "#E95800",
   },
   {
     text: "Exercism",
     url: "https://exercism.org/profiles/tacoda",
     description:
       "Learning and mentorship",
-    color: "#1099A8",
   },
   {
     text: "Dev.to",
     url: "https://dev.to/tacoda",
     description:
       "My writings",
-    color: "#BC027F",
   },
   {
     text: "Stack Overflow",
     url: "https://stackoverflow.com/story/tacoda",
     description:
       "My developer story",
-    color: "#0D96F2",
   },
   {
     text: "Twitter",
     url: "https://twitter.com/tacoda_dev",
     description:
       "My twitter profile",
-    color: "#8EB814",
   },
   {
     text: "Email",
     url: "mailto:tacoda@hey.com",
     description:
       "Email me at: tacoda@hey.com",
-    color: "#34B8DE",
   },
 ]
 
@@ -145,7 +139,7 @@ const IndexPage = () => {
         </p>
         <ul style={listStyles}>
           {links.map(link => (
-            <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
+            <li key={link.url} style={{ ...listItemStyles}}>
               <span>
                 <a
                   style={linkStyle}

@@ -1,10 +1,11 @@
 import * as React from "react"
 import avatar from "../images/tacoda.png"
+import 'bulma/css/bulma.css'
 
 // styles
 const pageStyles = {
   backgroundColor: "#f7f7f7",
-  color: "#2d2d2d",
+  color: "#3c3c3c",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -13,7 +14,7 @@ const headingAccentStyles = {
 }
 const paragraphStyles = {
   marginBottom: 48,
-  fontSize: "1.4em",
+  fontSize: "1.2em",
 }
 const codeStyles = {
   color: "#8A6534",
@@ -40,24 +41,13 @@ const linkStyle = {
   verticalAlign: "5%",
 }
 
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
 
 const descriptionStyle = {
-  color: "#232129",
+  color: "#5e5e5e",
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
   lineHeight: 1.25,
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
 }
 
 const badgeStyle = {
@@ -76,24 +66,10 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
-const avatarStyle = {
-  borderRadius: 2,
-  height: "10%",
-  width: "10%",
-  float: "left",
-  display: "inline",
-}
-
 const headingStyles = {
   marginTop: 32,
   marginBottom: 64,
   maxWidth: 320,
-  float: "left",
-  display: "inline",
-}
-
-const container = {
-  clear: "both",
 }
 
 // data
@@ -147,15 +123,21 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Ian Johnson</title>
-      <img
-        alt="TacodaKitty"
-        src={avatar}
-        style={avatarStyle}
-      />
-      <h1 style={headingStyles}>
-        Ian Johnson
-      </h1>
-      <div style={container}>
+      <div class="columns is-mobile">
+        <div class="column is two-thirds">
+          <h1 class="title">
+            Ian Johnson
+          </h1>
+        </div>
+        <div class="column is-one-third">
+          <img
+            alt="TacodaKitty"
+            src={avatar}
+            class="image is-96x96"
+          />
+        </div>
+      </div>
+      <div>
         <p style={paragraphStyles}>
           I am a full-stack web developer with a penchant for Ruby on Rails and React.<br />
           I also have an unhealthy obsession with the Rust programming language.<br />

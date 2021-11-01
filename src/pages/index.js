@@ -15,6 +15,7 @@ const headingAccentStyles = {
 const paragraphStyles = {
   marginBottom: 48,
   fontSize: "1.2em",
+  textAlign: "center",
 }
 const codeStyles = {
   color: "#8A6534",
@@ -123,7 +124,7 @@ const IndexPage = () => {
             Ian Johnson
           </h1>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-fifth">
           <img
             alt="TacodaKitty"
             src={avatar}
@@ -131,27 +132,60 @@ const IndexPage = () => {
           />
         </div>
       </div>
+      <hr />
       <div>
         <p style={paragraphStyles}>
           I am a full-stack web developer with a penchant for Ruby on Rails and React.<br />
           I also have an unhealthy obsession with the Rust programming language.<br />
           Recently, I started my journey into learning more about Web3 and the blockchain.
         </p>
-        <ul style={listStyles}>
+        <hr />
+        <div class="columns is-mobile">
           {links.map(link => (
-            <li key={link.url} style={{ ...listItemStyles}}>
-              <span>
-                <a
-                  style={linkStyle}
-                  href={`${link.url}`}
-                >
-                  {link.text}
-                </a>
-                <p style={descriptionStyle}>{link.description}</p>
-              </span>
-            </li>
-          ))}
-        </ul>
+            <div class="column is-one-third">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <a
+                      style={linkStyle}
+                      href={`${link.url}`}
+                    >
+                      {link.text}
+                    </a>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <p style={descriptionStyle}>{link.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )).slice(0, 3)}
+        </div>
+        <div class="columns is-mobile">
+          {links.map(link => (
+            <div class="column is-one-third">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <a
+                      style={linkStyle}
+                      href={`${link.url}`}
+                    >
+                      {link.text}
+                    </a>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <p style={descriptionStyle}>{link.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )).slice(3, 6)}
+        </div>
       </div>
     </main>
   )

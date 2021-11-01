@@ -1,15 +1,11 @@
 import * as React from "react"
+import avatar from "../images/tacoda.png"
 
 // styles
 const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
 }
 const headingAccentStyles = {
   color: "#663399",
@@ -78,6 +74,26 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
+const avatarStyle = {
+  borderRadius: 2,
+  height: "10%",
+  width: "10%",
+  float: "left",
+  display: "inline",
+}
+
+const headingStyles = {
+  marginTop: 32,
+  marginBottom: 64,
+  maxWidth: 320,
+  float: "left",
+  display: "inline",
+}
+
+const container = {
+  clear: "both",
+}
+
 // data
 const links = [
   {
@@ -122,12 +138,22 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Ian Johnson</title>
+      <img
+        alt="TacodaKitty"
+        src={avatar}
+        style={avatarStyle}
+      />
       <h1 style={headingStyles}>
         Ian Johnson
       </h1>
       <nav>
       </nav>
-      <div class="container">
+      <div style={container}>
+        <p style={paragraphStyles}>
+          I am a full-stack web developer with a penchant for Ruby on Rails and React.
+          I also have an unhealthy obsession with the Rust programming language.
+          Recently, I started my journey into learning more about Web3 and the blockchain.
+        </p>
         <ul style={listStyles}>
           {links.map(link => (
             <li key={link.url} style={{ ...listItemStyles, color: link.color }}>

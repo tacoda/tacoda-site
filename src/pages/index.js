@@ -13,6 +13,7 @@ const headingAccentStyles = {
 }
 const paragraphStyles = {
   marginBottom: 48,
+  textSize: "1.4em",
 }
 const codeStyles = {
   color: "#8A6534",

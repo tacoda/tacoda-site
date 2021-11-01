@@ -118,20 +118,14 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Ian Johnson</title>
-      <div class="columns is-mobile">
-        <div class="column is two-thirds">
-          <h1 class="title">
-            Ian Johnson
-          </h1>
-        </div>
-        <div class="column is-one-fifth">
           <img
             alt="TacodaKitty"
             src={avatar}
             class="image is-96x96"
           />
-        </div>
-      </div>
+          <h1 class="title">
+            Ian Johnson
+          </h1>
       <hr />
       <div>
         <p style={paragraphStyles}>
@@ -140,7 +134,7 @@ const IndexPage = () => {
           Recently, I started my journey into learning more about Web3 and the blockchain.
         </p>
         <hr />
-        <div class="columns is-mobile">
+        <div class="columns">
           {links.map(link => (
             <div class="column is-one-third">
               <div class="card">
@@ -163,7 +157,7 @@ const IndexPage = () => {
             </div>
           )).slice(0, 3)}
         </div>
-        <div class="columns is-mobile">
+        <div class="columns">
           {links.map(link => (
             <div class="column is-one-third">
               <div class="card">

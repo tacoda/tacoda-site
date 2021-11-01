@@ -4,7 +4,7 @@ import avatar from "../images/tacoda.png"
 // styles
 const pageStyles = {
   backgroundColor: "#f7f7f7",
-  color: "#3c3c3c",
+  color: "#2d2d2d",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -155,12 +155,10 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Ian Johnson
       </h1>
-      <nav>
-      </nav>
       <div style={container}>
         <p style={paragraphStyles}>
-          I am a full-stack web developer with a penchant for Ruby on Rails and React.
-          I also have an unhealthy obsession with the Rust programming language.
+          I am a full-stack web developer with a penchant for Ruby on Rails and React.<br />
+          I also have an unhealthy obsession with the Rust programming language.<br />
           Recently, I started my journey into learning more about Web3 and the blockchain.
         </p>
         <ul style={listStyles}>

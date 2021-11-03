@@ -82,18 +82,6 @@ const links = [
       "My code repositories",
   },
   {
-    text: "Exercism",
-    url: "https://exercism.org/profiles/tacoda",
-    description:
-      "Learning and mentorship",
-  },
-  {
-    text: "Dev.to",
-    url: "https://dev.to/tacoda",
-    description:
-      "My writings",
-  },
-  {
     text: "Stack Overflow",
     url: "https://stackoverflow.com/story/tacoda",
     description:
@@ -138,7 +126,7 @@ const IndexPage = () => {
         <hr />
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-third">
+            <div class="column is-one-fourth">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -157,30 +145,7 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-          )).slice(0, 3)}
-        </div>
-        <div class="columns">
-          {links.map(link => (
-            <div class="column is-one-third">
-              <div class="card">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a
-                      style={linkStyle}
-                      href={`${link.url}`}
-                    >
-                      {link.text}
-                    </a>
-                  </p>
-                </header>
-                <div class="card-content">
-                  <div class="content">
-                    <p style={descriptionStyle}>{link.description}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )).slice(3, 6)}
+          ))}
         </div>
       </div>
     </main>

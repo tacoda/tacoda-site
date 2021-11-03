@@ -131,7 +131,9 @@ const IndexPage = () => {
         <p style={paragraphStyles}>
           I am a full-stack web developer with a penchant for Ruby on Rails and React.<br />
           I also have an unhealthy obsession with the Rust programming language.<br />
-          Recently, I started my journey into learning more about Web3 and the blockchain.
+          I have worked with docker, kubernetes and serveral cloud services.<br />
+          Additionally, I contribute to open source projects.<br />
+          Recently, I started my journey into learning about Web3.
         </p>
         <hr />
         <div class="columns">

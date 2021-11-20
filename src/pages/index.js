@@ -1,5 +1,4 @@
 import * as React from "react"
-import avatar from "../images/tacoda.png"
 import 'bulma/css/bulma.css'
 
 // styles
@@ -42,6 +41,13 @@ const linkStyle = {
   verticalAlign: "5%",
 }
 
+const centered = {
+  margin: "0 auto",
+}
+
+const titleStyle = {
+  textAlign: "center",
+}
 
 const descriptionStyle = {
   color: "#5e5e5e",
@@ -106,20 +112,26 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Ian Johnson</title>
-          <img
-            alt="TacodaKitty"
-            src={avatar}
-            class="image is-96x96"
-          />
-          <h1 class="title">
-            Ian Johnson
-          </h1>
+        <div class="box">
+          <div>
+              <figure class="image is-128x128" style={centered}>
+              <img
+                alt="Gravatar"
+                src="http://gravatar.com/avatar/0a09dcb201b488dece3b9e47e3f2443b"
+                class="is-rounded"
+              />
+              </figure>
+              <h1 class="title" style={titleStyle}>
+                Ian Johnson
+              </h1>
+          </div>
+        </div>
       <hr />
       <div>
         <p style={paragraphStyles}>
           I am a full-stack web developer with a penchant for Ruby on Rails and React.<br />
-          I also have an unhealthy obsession with the Rust programming language.<br />
-          I have worked with docker, kubernetes and serveral cloud services.<br />
+          I also really enjoy working with the Rust programming language.<br />
+          I have worked with linux, docker, kubernetes and serveral cloud services.<br />
           Additionally, I contribute to open source projects.<br />
           Recently, I started my journey into learning about Web3.
         </p>

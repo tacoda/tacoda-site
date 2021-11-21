@@ -127,26 +127,6 @@ const projects = [
   },
 ]
 
-const books = [
-  {
-    text: "The Pragmatic Programmer",
-    url: "https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1/ref=sr_1_1?crid=2L59AAIQ63TLX&keywords=the+pragmatic+programmer&qid=1637524617&sprefix=the+pragmatic+%2Caps%2C214&sr=8-1",
-    description:
-      "By David Thomas and Andrew Hunt",
-  },{
-    text: "The Rails 5 Way",
-    url: "https://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby-ebook/dp/B077D9X5NM/ref=sr_1_1?keywords=the+rails+way&qid=1637524118&sr=8-1",
-    description:
-      "By Obie Fernanadez",
-  },
-  {
-    text: "How to DeFi",
-    url: "https://www.amazon.com/How-DeFi-Beginner-Coin-Gecko-ebook/dp/B098KMWZG7/ref=sr_1_3?keywords=how+to+defi&qid=1637524214&sr=8-3",
-    description:
-      "By Darren Lau, et. al.",
-  },
-]
-
 // markup
 const IndexPage = () => {
   return (
@@ -223,33 +203,6 @@ const IndexPage = () => {
                 <div class="card-content">
                   <div class="content">
                     <p style={descriptionStyle}>{project.description}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        <h2 class="subtitle" style={titleStyle}>
-          Recommended Reading
-        </h2>
-        <hr />
-        <div class="columns">
-          {books.map(book => (
-            <div class="column is-one-fourth">
-              <div class="card">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a
-                      style={linkStyle}
-                      href={`${book.url}`}
-                    >
-                      {book.text}
-                    </a>
-                  </p>
-                </header>
-                <div class="card-content">
-                  <div class="content">
-                    <p style={descriptionStyle}>{book.description}</p>
                   </div>
                 </div>
               </div>

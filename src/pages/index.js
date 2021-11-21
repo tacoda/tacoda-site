@@ -107,6 +107,46 @@ const links = [
   },
 ]
 
+const projects = [
+  {
+    text: "fd",
+    url: "https://github.com/sharkdp/fd",
+    description:
+      "Find entries in your filesystem",
+  },
+  {
+    text: "Jaws",
+    url: "https://github.com/tacoda/jaws",
+    description:
+      "Interact with AWS resources",
+  },{
+    text: "Caml",
+    url: "https://rubygems.org/gems/caml",
+    description:
+      "Build CLI apps using declarative yaml",
+  },
+]
+
+const books = [
+  {
+    text: "The Pragmatic Programmer",
+    url: "https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1/ref=sr_1_1?crid=2L59AAIQ63TLX&keywords=the+pragmatic+programmer&qid=1637524617&sprefix=the+pragmatic+%2Caps%2C214&sr=8-1",
+    description:
+      "By David Thomas and Andrew Hunt",
+  },{
+    text: "The Rails 5 Way",
+    url: "https://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby-ebook/dp/B077D9X5NM/ref=sr_1_1?keywords=the+rails+way&qid=1637524118&sr=8-1",
+    description:
+      "By Obie Fernanadez",
+  },
+  {
+    text: "How to DeFi",
+    url: "https://www.amazon.com/How-DeFi-Beginner-Coin-Gecko-ebook/dp/B098KMWZG7/ref=sr_1_3?keywords=how+to+defi&qid=1637524214&sr=8-3",
+    description:
+      "By Darren Lau, et. al.",
+  },
+]
+
 // markup
 const IndexPage = () => {
   return (
@@ -121,21 +161,24 @@ const IndexPage = () => {
                 class="is-rounded"
               />
               </figure>
+              <hr />
               <h1 class="title" style={titleStyle}>
                 Ian Johnson
               </h1>
           </div>
         </div>
-      <hr />
       <div>
+        <h2 class="subtitle" style={titleStyle}>
+          About Me
+        </h2>
+        <hr />
         <p style={paragraphStyles}>
-          I am a full-stack web developer with a penchant for Ruby on Rails and React.<br />
+          I am a fullstack web developer with a penchant for Ruby on Rails and React.<br />
           I also really enjoy working with the Rust programming language.<br />
           I have worked with linux, docker, kubernetes and serveral cloud services.<br />
           Additionally, I contribute to open source projects.<br />
           Recently, I started my journey into learning about Web3.
         </p>
-        <hr />
         <div class="columns">
           {links.map(link => (
             <div class="column is-one-fourth">
@@ -153,6 +196,60 @@ const IndexPage = () => {
                 <div class="card-content">
                   <div class="content">
                     <p style={descriptionStyle}>{link.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <h2 class="subtitle" style={titleStyle}>
+          Projects I Work On
+        </h2>
+        <hr />
+        <div class="columns">
+          {projects.map(project => (
+            <div class="column is-one-fourth">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <a
+                      style={linkStyle}
+                      href={`${project.url}`}
+                    >
+                      {project.text}
+                    </a>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <p style={descriptionStyle}>{project.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <h2 class="subtitle" style={titleStyle}>
+          Recommended Reading
+        </h2>
+        <hr />
+        <div class="columns">
+          {books.map(book => (
+            <div class="column is-one-fourth">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <a
+                      style={linkStyle}
+                      href={`${book.url}`}
+                    >
+                      {book.text}
+                    </a>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <p style={descriptionStyle}>{book.description}</p>
                   </div>
                 </div>
               </div>

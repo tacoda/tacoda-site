@@ -150,13 +150,20 @@ const IndexPage = () => {
                 class="is-rounded"
               />
               </figure>
-              <hr />
               <h1 class="title" style={titleStyle}>
                 Ian Johnson
               </h1>
-              <p>
-                🌐 Fullstack Web Engineer ☁️ Cloud Architect 🛤⚛️ Rails & React Developer 💎 Rubyist 🦀 Rustacean 👽 Lisp Lover 📖 OSS Contributor 🔐 Crypto Nerd
-              </p>
+              <hr />
+              <div class="container" style={titleStyle}>
+                🌐 Fullstack Web Engineer<br />
+                ☁️ Cloud Architect<br />
+                🛤⚛️ Rails &amp; React Developer<br />
+                💎 Rubyist<br />
+                🦀 Rustacean<br />
+                👽 Lisp Lover<br />
+                📖 OSS Contributor<br />
+                🔐 Crypto Nerd<br />
+              </div>
           </div>
         </div>
       <div>

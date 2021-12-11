@@ -164,6 +164,7 @@ const IndexPage = () => {
                 💧 Alchemist<br />
                 🦀 Rustacean<br />
                 👽 Lisp Lover<br />
+                📞 Erlang &amp; OTP Fan<br />
                 📖 Open Source Contributor<br />
                 🤓 Crypto Nerd<br />
               </div>
@@ -178,7 +179,7 @@ const IndexPage = () => {
           I am a fullstack web developer with a penchant for <a href="https://rubyonrails.org/">Ruby on Rails</a> and <a href="https://reactjs.org/">React</a>.<br />
           My favorite programming language is <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp</a>.<br />
           I also really enjoy working with <a href="https://www.python.org/">Python</a>, <a href="https://www.ruby-lang.org/">Ruby</a>, <a href="https://elixir-lang.org/">Elixir</a>,and <a href="https://www.rust-lang.org/">Rust</a>.<br />
-          I have worked with <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>, <a href="https://www.docker.com/">Docker</a>, and <a href="https://kubernetes.io/">Kubernetes</a>.<br />
+          I have worked with <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a>, <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>, <a href="https://www.docker.com/">Docker</a>, and <a href="https://kubernetes.io/">Kubernetes</a>.<br />
           I have worked with serveral <a href="https://en.wikipedia.org/wiki/Cloud_computing">cloud</a> service vendors, including <a href="https://aws.amazon.com/">AWS</a> and <a href="https://azure.microsoft.com/">Azure</a>.<br />
           Additionally, I contribute to <a href="https://en.wikipedia.org/wiki/Open-source_software">open source</a> projects.<br />
           From time to time, I write blog posts on the <a href="https://dev.to/">DEV Community</a>.<br />

@@ -157,12 +157,15 @@ const IndexPage = () => {
               <div class="container" style={titleStyle}>
                 🌐 Fullstack Web Engineer<br />
                 ☁️ Cloud Architect<br />
+                🔒 Web Security Specialist<br />
                 🛤⚛️ Rails &amp; React Developer<br />
+                🐍 Pythonista<br />
                 💎 Rubyist<br />
+                💧 Alchemist<br />
                 🦀 Rustacean<br />
                 👽 Lisp Lover<br />
                 📖 OSS Contributor<br />
-                🔐 Crypto Nerd<br />
+                🤓 Crypto Nerd<br />
               </div>
           </div>
         </div>

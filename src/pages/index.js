@@ -88,6 +88,12 @@ const links = [
       "My code repositories",
   },
   {
+    text: "Dev.to",
+    url: "https://dev.to/tacoda",
+    description:
+      "My blog posts",
+  },
+  {
     text: "Stack Overflow",
     url: "https://stackoverflow.com/story/tacoda",
     description:
@@ -103,24 +109,27 @@ const links = [
     text: "Email",
     url: "mailto:tacoda@hey.com",
     description:
-      "Email me at: tacoda@hey.com",
+      "tacoda@hey.com",
   },
 ]
 
 const projects = [
   {
     text: "fd",
+    labels: ["open-source"],
     url: "https://github.com/sharkdp/fd",
     description:
       "Find entries in your filesystem",
   },
   {
     text: "Jaws",
+    labels: ["open-source", "owner"],
     url: "https://github.com/tacoda/jaws",
     description:
       "Interact with AWS resources",
   },{
     text: "Caml",
+    labels: ["open-source", "owner"],
     url: "https://rubygems.org/gems/caml",
     description:
       "Build CLI apps using declarative yaml",
@@ -145,6 +154,9 @@ const IndexPage = () => {
               <h1 class="title" style={titleStyle}>
                 Ian Johnson
               </h1>
+              <p>
+                🌐 Fullstack Web Engineer ☁️ Cloud Architect 🛤⚛️ Rails & React Developer 💎 Rubyist 🦀 Rustacean 👽 Lisp Lover 📖 OSS Contributor 🔐 Crypto Nerd
+              </p>
           </div>
         </div>
       <div>
@@ -153,15 +165,18 @@ const IndexPage = () => {
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          I am a fullstack web developer with a penchant for Ruby on Rails and React.<br />
-          I also really enjoy working with the Rust programming language.<br />
-          I have worked with linux, docker, kubernetes and serveral cloud services.<br />
-          Additionally, I contribute to open source projects.<br />
-          Recently, I started my journey into learning about Web3.
+          I am a fullstack web developer with a penchant for <a href="https://rubyonrails.org/">Ruby on Rails</a> and <a href="https://reactjs.org/">React</a>.<br />
+          My favorite programming language is <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp</a>.<br />
+          I also really enjoy working with <a href="https://www.python.org/">Python</a>, <a href="https://www.ruby-lang.org/">Ruby</a>, <a href="https://elixir-lang.org/">Elixir</a>,and <a href="https://www.rust-lang.org/">Rust</a>.<br />
+          I have worked with <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>, <a href="https://www.docker.com/">Docker</a>, and <a href="https://kubernetes.io/">Kubernetes</a>.<br />
+          I have worked with serveral <a href="https://en.wikipedia.org/wiki/Cloud_computing">cloud</a> service vendors, including <a href="https://aws.amazon.com/">AWS</a> and <a href="https://azure.microsoft.com/">Azure</a>.<br />
+          Additionally, I contribute to <a href="https://en.wikipedia.org/wiki/Open-source_software">open source</a> projects.<br />
+          From time to time, I write blog posts on the <a href="https://dev.to/">DEV Community</a>.<br />
+          Recently, I started my journey into learning about <a href="https://en.wikipedia.org/wiki/Web3">Web3</a>.
         </p>
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-fourth">
+            <div class="column is-one-fifth">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -183,12 +198,12 @@ const IndexPage = () => {
           ))}
         </div>
         <h2 class="subtitle" style={titleStyle}>
-          Projects I Work On
+          Projects
         </h2>
         <hr />
         <div class="columns">
           {projects.map(project => (
-            <div class="column is-one-fourth">
+            <div class="column is-one-third">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">

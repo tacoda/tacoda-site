@@ -164,7 +164,7 @@ const IndexPage = () => {
                 💧 Alchemist<br />
                 🦀 Rustacean<br />
                 👽 Lisp Lover<br />
-                📖 OSS Contributor<br />
+                📖 Open Source Contributor<br />
                 🤓 Crypto Nerd<br />
               </div>
           </div>

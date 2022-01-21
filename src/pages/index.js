@@ -100,39 +100,10 @@ const links = [
       "My developer story",
   },
   {
-    text: "Twitter",
-    url: "https://twitter.com/tacoda_dev",
-    description:
-      "My twitter profile",
-  },
-  {
     text: "Email",
     url: "mailto:tacoda@hey.com",
     description:
       "tacoda@hey.com",
-  },
-]
-
-const projects = [
-  // {
-  //   text: "fd",
-  //   labels: ["open-source"],
-  //   url: "https://github.com/sharkdp/fd",
-  //   description:
-  //     "Find entries in your filesystem",
-  // },
-  {
-    text: "Jaws",
-    labels: ["open-source", "owner"],
-    url: "https://github.com/tacoda/jaws",
-    description:
-      "Interact with AWS resources",
-  },{
-    text: "Caml",
-    labels: ["open-source", "owner"],
-    url: "https://rubygems.org/gems/caml",
-    description:
-      "Build CLI apps using declarative yaml",
   },
 ]
 
@@ -157,8 +128,8 @@ const IndexPage = () => {
               <div class="container" style={titleStyle}>
                 🌐 Fullstack Web Engineer<br />
                 ☁️ Cloud Architect<br />
-                🔒 Web Security Specialist<br />
-                💎🛤⚛️ Rails &amp; React Developer<br />
+                🔒 Web Application Security Specialist<br />
+                💎🛤⚛️Ruby on Rails &amp; React Developer<br />
                 📞 OTP Enthusiast<br />
                 📖 Open Source Contributor<br />
               </div>
@@ -180,7 +151,7 @@ const IndexPage = () => {
         </p>
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-fifth">
+            <div class="column is-one-fourth">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -195,33 +166,6 @@ const IndexPage = () => {
                 <div class="card-content">
                   <div class="content">
                     <p style={descriptionStyle}>{link.description}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        <h2 class="subtitle" style={titleStyle}>
-          Projects
-        </h2>
-        <hr />
-        <div class="columns">
-          {projects.map(project => (
-            <div class="column is-one-third">
-              <div class="card">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a
-                      style={linkStyle}
-                      href={`${project.url}`}
-                    >
-                      {project.text}
-                    </a>
-                  </p>
-                </header>
-                <div class="card-content">
-                  <div class="content">
-                    <p style={descriptionStyle}>{project.description}</p>
                   </div>
                 </div>
               </div>

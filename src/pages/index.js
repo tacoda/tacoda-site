@@ -88,16 +88,22 @@ const links = [
       "My code repositories",
   },
   {
-    text: "Stack Overflow",
-    url: "https://stackoverflow.com/story/tacoda",
-    description:
-      "My developer story",
-  },
-  {
     text: "Email",
     url: "mailto:tacoda@hey.com",
     description:
       "tacoda@hey.com",
+  },
+  {
+    text: "Digital Garden",
+    url: "https://tacoda.github.io/garden/",
+    description:
+      "My digital garden",
+  },
+  {
+    text: "Stack Overflow",
+    url: "https://stackoverflow.com/story/tacoda",
+    description:
+      "My developer story",
   },
 ]
 
@@ -141,13 +147,6 @@ const IndexPage = () => {
           I have worked with <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>, <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a>, <a href="https://www.docker.com/">Docker</a>, and <a href="https://kubernetes.io/">Kubernetes</a>.<br />
           I have worked with serveral <a href="https://en.wikipedia.org/wiki/Cloud_computing">cloud</a> service vendors, including <a href="https://aws.amazon.com/">AWS</a> and <a href="https://azure.microsoft.com/">Azure</a>.<br />
           Additionally, I contribute to <a href="https://en.wikipedia.org/wiki/Open-source_software">open source</a> projects.<br />
-        </p>
-        <h2 class="subtitle" style={titleStyle}>
-          Content
-        </h2>
-        <hr />
-        <p style={paragraphStyles}>
-          My <a href="https://tacoda.github.io/garden/">digital garden</a> is a collection of my notes related to programming.<br />
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Links

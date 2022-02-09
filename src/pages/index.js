@@ -142,6 +142,17 @@ const IndexPage = () => {
           I have worked with serveral <a href="https://en.wikipedia.org/wiki/Cloud_computing">cloud</a> service vendors, including <a href="https://aws.amazon.com/">AWS</a> and <a href="https://azure.microsoft.com/">Azure</a>.<br />
           Additionally, I contribute to <a href="https://en.wikipedia.org/wiki/Open-source_software">open source</a> projects.<br />
         </p>
+        <h2 class="subtitle" style={titleStyle}>
+          Content
+        </h2>
+        <hr />
+        <p style={paragraphStyles}>
+          My <a href="https://tacoda.github.io/garden/">digital garden</a> is a collection of my notes related to programming.<br />
+        </p>
+        <h2 class="subtitle" style={titleStyle}>
+          Links
+        </h2>
+        <hr />
         <div class="columns">
           {links.map(link => (
             <div class="column is-one-fourth">

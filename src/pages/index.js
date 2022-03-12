@@ -108,7 +108,7 @@ const IndexPage = () => {
       <title>Ian Johnson</title>
       <div class="box">
         <div>
-          <figure class="image is-128x128" style={centered}>
+          <figure class="image is-96x96" style={centered}>
             <img
               alt="Gravatar"
               src="http://gravatar.com/avatar/0a09dcb201b488dece3b9e47e3f2443b"

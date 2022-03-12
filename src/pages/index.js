@@ -94,16 +94,10 @@ const links = [
       "tacoda@hey.com",
   },
   {
-    text: "Digital Garden",
-    url: "https://tacoda.github.io/garden/",
+    text: "CV",
+    url: "/cv.pdf",
     description:
-      "My digital garden",
-  },
-  {
-    text: "Stack Overflow",
-    url: "https://stackoverflow.com/story/tacoda",
-    description:
-      "My developer story",
+      "My CV",
   },
 ]
 
@@ -112,29 +106,29 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Ian Johnson</title>
-        <div class="box">
-          <div>
-              <figure class="image is-128x128" style={centered}>
-              <img
-                alt="Gravatar"
-                src="http://gravatar.com/avatar/0a09dcb201b488dece3b9e47e3f2443b"
-                class="is-rounded"
-              />
-              </figure>
-              <h1 class="title" style={titleStyle}>
-                Ian Johnson
-              </h1>
-              <hr />
-              <div class="container" style={titleStyle}>
-                🌐 Fullstack Web Engineer<br />
-                ☁️ Cloud Architect<br />
-                🔒 Web Application Security Specialist<br />
-                💎🛤⚛️ Ruby on Rails &amp; React Developer<br />
-                📞 OTP Enthusiast<br />
-                📖 Open Source Contributor<br />
-              </div>
+      <div class="box">
+        <div>
+          <figure class="image is-128x128" style={centered}>
+            <img
+              alt="Gravatar"
+              src="http://gravatar.com/avatar/0a09dcb201b488dece3b9e47e3f2443b"
+              class="is-rounded"
+            />
+          </figure>
+          <h1 class="title" style={titleStyle}>
+            Ian Johnson
+          </h1>
+          <hr />
+          <div class="container" style={titleStyle}>
+            🌐 Fullstack Web Engineer<br />
+            ☁️ Cloud Architect<br />
+            🔒 Web Application Security Specialist<br />
+            💎🛤⚛️ Ruby on Rails &amp; React Developer<br />
+            📞 OTP Enthusiast<br />
+            📖 Open Source Contributor<br />
           </div>
         </div>
+      </div>
       <div>
         <h2 class="subtitle" style={titleStyle}>
           About Me
@@ -142,10 +136,10 @@ const IndexPage = () => {
         <hr />
         <p style={paragraphStyles}>
           I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          I specialize in web application security. Languages I have used include
-          Bash, Ruby, Python, PHP, JavaScript, ES6, Erlang, Elixir, C, Java, Rust, Common Lisp, Scheme, Clojure, and LFE.
-          Tools I have worked with entail Linux, Docker, and Kubernetes.
-          I have also utilized several cloud service vendors, consisting of AWS, Azure, GCP, Heroku, and Linode.
+          I specialize in web application security. Languages I prefer to use include Bash, Ruby, Elixir, Clojure, and Rust.
+          Web technologies I have used include Rails, Phoenix, Elm, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, and Font Awesome.
+          Tools I have worked with entail Git, Linux, Docker, and Kubernetes.
+          I have also utilized several cloud service vendors, consisting of Azure, AWS, Heroku, and a few others.
           Additionally, I contribute to open source projects.
         </p>
         <h2 class="subtitle" style={titleStyle}>
@@ -154,7 +148,7 @@ const IndexPage = () => {
         <hr />
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-fourth">
+            <div class="column is-one-third">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">

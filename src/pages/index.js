@@ -124,6 +124,7 @@ const IndexPage = () => {
             ☁️ Cloud Architect<br />
             🔒 Web Application Security Specialist<br />
             💎🛤⚛️ Ruby on Rails &amp; React Developer<br />
+            👽 Lisp Lover<br />
             📞 OTP Enthusiast<br />
             📖 Open Source Contributor<br />
           </div>
@@ -136,7 +137,7 @@ const IndexPage = () => {
         <hr />
         <p style={paragraphStyles}>
           I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          I specialize in web application security. Languages I prefer to use include Bash, Ruby, Elixir, Clojure, and Rust.
+          I specialize in web application security. Languages I prefer to use include Bash, Ruby, JavaScript, Elixir, Clojure, and Rust.
           Web technologies I have used include Rails, Phoenix, Elm, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, and Font Awesome.
           Tools I have worked with entail Git, Linux, Docker, and Kubernetes.
           I have also utilized several cloud service vendors, consisting of Azure, AWS, Heroku, and a few others.

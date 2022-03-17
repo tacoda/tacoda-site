@@ -99,6 +99,12 @@ const links = [
     description:
       "My CV",
   },
+  {
+    text: "Bugs and Shrugs",
+    url: "https://bugsandshrugs.substack.com/",
+    description:
+      "My substack newsletter",
+  },
 ]
 
 // markup
@@ -149,7 +155,7 @@ const IndexPage = () => {
         <hr />
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-third">
+            <div class="column is-one-fourth">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">

@@ -99,12 +99,6 @@ const links = [
     description:
       "My CV",
   },
-  {
-    text: "Bugs and Shrugs",
-    url: "https://bugsandshrugs.substack.com/",
-    description:
-      "My substack newsletter",
-  },
 ]
 
 // markup

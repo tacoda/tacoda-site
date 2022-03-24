@@ -149,7 +149,7 @@ const IndexPage = () => {
         <hr />
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-fourth">
+            <div class="column is-one-third">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">

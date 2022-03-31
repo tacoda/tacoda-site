@@ -99,6 +99,12 @@ const links = [
     description:
       "My CV",
   },
+  {
+    text: "Digital Garden",
+    url: "https://tacoda.github.io/garden/index.html",
+    description:
+      "My Digital Garden",
+  },
 ]
 
 // markup

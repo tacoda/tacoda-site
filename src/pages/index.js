@@ -145,6 +145,7 @@ const IndexPage = () => {
             ☁️ Cloud Architect<br />
             🔒 Web Application Security Specialist<br />
             💎🛤⚛️ Ruby on Rails &amp; React Developer<br />
+            🦀 Rustacean<br />
             👽 Lisp Lover<br />
             📞 OTP Enthusiast<br />
             📖 Open Source Contributor<br />

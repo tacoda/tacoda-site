@@ -99,11 +99,26 @@ const links = [
     description:
       "My CV",
   },
+]
+
+const projects = [
   {
-    text: "Digital Garden",
-    url: "https://tacoda.github.io/garden/index.html",
+    text: "wl",
+    url: "https://github.com/tacoda/wl",
     description:
-      "My Digital Garden",
+      "WhoIs Lookup Tool",
+  },
+  {
+    text: "roarum",
+    url: "https://github.com/tacoda/roarum",
+    description:
+      "Web Forum",
+  },
+  {
+    text: "Jaws",
+    url: "https://github.com/tacoda/jaws",
+    description:
+      "AWS Command Line Tool",
   },
 ]
 
@@ -155,7 +170,7 @@ const IndexPage = () => {
         <hr />
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-fourth">
+            <div class="column is-one-third">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -170,6 +185,30 @@ const IndexPage = () => {
                 <div class="card-content">
                   <div class="content">
                     <p style={descriptionStyle}>{link.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <hr />
+        <div class="columns">
+          {projects.map(proj => (
+            <div class="column is-one-third">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <a
+                      style={linkStyle}
+                      href={`${proj.url}`}
+                    >
+                      {proj.text}
+                    </a>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <p style={descriptionStyle}>{proj.description}</p>
                   </div>
                 </div>
               </div>

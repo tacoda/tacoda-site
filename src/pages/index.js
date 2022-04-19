@@ -159,11 +159,19 @@ const IndexPage = () => {
         <hr />
         <p style={paragraphStyles}>
           I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          I specialize in web application security. Languages I prefer to use include Bash, Ruby, JavaScript, Elixir, Clojure, and Rust.
-          Web technologies I have used include Rails, Phoenix, Elm, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, and Font Awesome.
-          Tools I have worked with entail Git, Linux, Docker, and Kubernetes.
-          I have also utilized several cloud service vendors, consisting of Azure, AWS, Heroku, and a few others.
-          Additionally, I contribute to open source projects.
+          Web application security is very interesting to me. The ways in which web applications
+          switch language contexts allows for a very interesting attack surface that tends to be
+          very impactful to business operations given the ubiquity of the internet.
+          I am always interested in learning more about security and cloud computing.
+          When I am not coding, I spend my time reading, traveling, and doing fun things with my family.
+        </p>
+        <p style={paragraphStyles}>
+          Technologies that I have used include Bash, Ruby, JavaScript, Elixir, Clojure, Rust,
+          Rails, Phoenix, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, Font Awesome,
+          Git, Linux, Docker, Kubernetes, Azure, AWS, and Heroku. I have also contributed to open source projects.
+        </p>
+        <p style={paragraphStyles}>
+          If you are interested in connecting with me, please see the contact link below.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Links

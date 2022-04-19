@@ -191,6 +191,9 @@ const IndexPage = () => {
             </div>
           ))}
         </div>
+        <h2 class="subtitle" style={titleStyle}>
+          Projects
+        </h2>
         <hr />
         <div class="columns">
           {projects.map(proj => (

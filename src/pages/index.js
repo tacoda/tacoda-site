@@ -182,14 +182,10 @@ const IndexPage = () => {
         <hr />
         <p style={paragraphStyles}>
           I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          Web application security is very interesting to me. Web applications have
-          a very interesting attack surface, which has a large impact on business operations.
+          Web application security is extremely interesting to me. Web applications have
+          a very unique attack surface, which has a large impact on business operations.
           I am always interested in learning more about security and cloud computing.
-        </p>
-        <p style={paragraphStyles}>
-          Technologies that I have used include Bash, Ruby, JavaScript, Elixir, Clojure, Rust,
-          Rails, Phoenix, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, Font Awesome,
-          Git, Linux, Docker, Kubernetes, Azure, AWS, and Heroku. I have also contributed to open source projects.
+          I also enjoy contributing to open source projects.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Projects

@@ -84,14 +84,20 @@ const links = [
   {
     text: "GitHub",
     url: "https://github.com/tacoda",
+    description:
+      "My code repositories",
   },
   {
-    text: "Contact Me",
-    url: "https://14c3lb7tvwf.typeform.com/to/A6wavkIt?typeform-source=www.tacoda.dev",
+    text: "Email",
+    url: "mailto:tacoda@hey.com",
+    description:
+      "tacoda@hey.com",
   },
   {
     text: "CV",
     url: "/cv.pdf",
+    description:
+      "My CV",
   },
 ]
 
@@ -157,11 +163,15 @@ const IndexPage = () => {
           switch language contexts allows for a very interesting attack surface that tends to be
           very impactful to business operations given the ubiquity of the internet.
           I am always interested in learning more about security and cloud computing.
+          When I am not coding, I spend my time reading, traveling, and doing fun things with my family.
         </p>
         <p style={paragraphStyles}>
           Technologies that I have used include Bash, Ruby, JavaScript, Elixir, Clojure, Rust,
           Rails, Phoenix, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, Font Awesome,
           Git, Linux, Docker, Kubernetes, Azure, AWS, and Heroku. I have also contributed to open source projects.
+        </p>
+        <p style={paragraphStyles}>
+          If you are interested in connecting with me, please see the contact link below.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Links
@@ -171,16 +181,19 @@ const IndexPage = () => {
           {links.map(link => (
             <div class="column is-one-third">
               <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <a
+                      style={linkStyle}
+                      href={`${link.url}`}
+                    >
+                      {link.text}
+                    </a>
+                  </p>
+                </header>
                 <div class="card-content">
                   <div class="content">
-                    <p style="card-header-title">
-                      <a
-                        style={linkStyle}
-                        href={`${link.url}`}
-                      >
-                        {link.text}
-                      </a>
-                    </p>
+                    <p style={descriptionStyle}>{link.description}</p>
                   </div>
                 </div>
               </div>

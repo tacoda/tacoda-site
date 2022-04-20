@@ -144,13 +144,9 @@ const IndexPage = () => {
           </h1>
           <hr />
           <div class="container" style={titleStyle}>
-            🌐 Fullstack Web Engineer<br />
+            🥞 Fullstack Web Engineer<br />
             ☁️ Cloud Architect<br />
             🔒 Web Application Security Specialist<br />
-            💎🛤⚛️ Ruby on Rails &amp; React Developer<br />
-            🦀 Rustacean<br />
-            👽 Lisp Lover<br />
-            📞 OTP Enthusiast<br />
             📖 Open Source Contributor<br />
           </div>
         </div>

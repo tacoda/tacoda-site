@@ -79,6 +79,10 @@ const headingStyles = {
   maxWidth: 320,
 }
 
+const navStyle = {
+  marginBottom: 64,
+}
+
 // data
 const links = [
   {
@@ -152,7 +156,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <nav>
+      <nav style={navStyle}>
         <div class="columns">
           {links.map(link => (
             <div class="column is-one-third">

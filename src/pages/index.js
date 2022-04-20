@@ -81,6 +81,7 @@ const headingStyles = {
 
 const navStyle = {
   marginBottom: 64,
+  textAlign: "centered",
 }
 
 // data
@@ -183,7 +184,6 @@ const IndexPage = () => {
           switch language contexts allows for a very interesting attack surface that tends to be
           very impactful to business operations given the ubiquity of the internet.
           I am always interested in learning more about security and cloud computing.
-          When I am not coding, I spend my time reading, traveling, and doing fun things with my family.
         </p>
         <p style={paragraphStyles}>
           Technologies that I have used include Bash, Ruby, JavaScript, Elixir, Clojure, Rust,

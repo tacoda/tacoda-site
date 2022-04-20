@@ -156,15 +156,13 @@ const IndexPage = () => {
             <div class="column is-one-third">
               <div class="card">
                 <div class="card-content">
-                  <div class="content" style={titleStyle}>
-                    <p class="card-header-title">
-                      <a
-                        style={linkStyle}
-                        href={`${link.url}`}
-                      >
-                        {link.text}
-                      </a>
-                    </p>
+                  <div class="content">
+                    <a
+                      style={linkStyle}
+                      href={`${link.url}`}
+                    >
+                      <h2 class="subtitle" style={titleStyle}>{link.text}</h2>
+                    </a>
                   </div>
                 </div>
               </div>

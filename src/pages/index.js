@@ -81,7 +81,7 @@ const headingStyles = {
 
 const navStyle = {
   marginBottom: 64,
-  textAlign: "centered",
+  textAlign: "center",
 }
 
 // data
@@ -95,7 +95,7 @@ const links = [
     url: "https://14c3lb7tvwf.typeform.com/to/A6wavkIt",
   },
   {
-    text: "CV",
+    text: "Curriculum Vitae",
     url: "/cv.pdf",
   },
 ]

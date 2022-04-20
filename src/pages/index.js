@@ -152,6 +152,28 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
+      <nav>
+        <div class="columns">
+          {links.map(link => (
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="card-header-title">
+                      <a
+                        style={linkStyle}
+                        href={`${link.url}`}
+                      >
+                        {link.text}
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </nav>
       <div>
         <h2 class="subtitle" style={titleStyle}>
           About Me
@@ -173,30 +195,6 @@ const IndexPage = () => {
         <p style={paragraphStyles}>
           If you are interested in connecting with me, please see the contact link below.
         </p>
-        <h2 class="subtitle" style={titleStyle}>
-          Links
-        </h2>
-        <hr />
-        <div class="columns">
-          {links.map(link => (
-            <div class="column is-one-third">
-              <div class="card">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="card-header-title">
-                      <a
-                        style={linkStyle}
-                        href={`${link.url}`}
-                      >
-                        {link.text}
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
         <h2 class="subtitle" style={titleStyle}>
           Projects
         </h2>

@@ -88,12 +88,6 @@ const links = [
       "My code repositories",
   },
   {
-    text: "Email",
-    url: "mailto:tacoda@hey.com",
-    description:
-      "tacoda@hey.com",
-  },
-  {
     text: "CV",
     url: "/cv.pdf",
     description:
@@ -109,7 +103,7 @@ const projects = [
       "WhoIs Lookup Tool",
   },
   {
-    text: "roarum",
+    text: "Roarum",
     url: "https://github.com/tacoda/roarum",
     description:
       "Web Forum",
@@ -170,16 +164,13 @@ const IndexPage = () => {
           Rails, Phoenix, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, Font Awesome,
           Git, Linux, Docker, Kubernetes, Azure, AWS, and Heroku. I have also contributed to open source projects.
         </p>
-        <p style={paragraphStyles}>
-          If you are interested in connecting with me, please see the contact link below.
-        </p>
         <h2 class="subtitle" style={titleStyle}>
           Links
         </h2>
         <hr />
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-third">
+            <div class="column is-one-half">
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -228,6 +219,7 @@ const IndexPage = () => {
           ))}
         </div>
       </div>
+      <div data-tf-sidetab="A6wavkIt" data-tf-width="320" data-tf-height="400" data-tf-button-color="#8954A8" data-tf-button-text="Contact Me" data-tf-iframe-props="title=Contact Me" data-tf-medium="snippet" style="all:unset;"></div><script src="//embed.typeform.com/next/embed.js"></script>
     </main>
   )
 }

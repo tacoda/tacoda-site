@@ -41,6 +41,14 @@ const linkStyle = {
   verticalAlign: "5%",
 }
 
+const navLinkStyle = {
+  color: "#8954A8",
+  fontWeight: "bold",
+  fontSize: 16,
+  verticalAlign: "5%",
+  textAlign: "center",
+}
+
 const centered = {
   margin: "0 auto",
 }
@@ -81,7 +89,6 @@ const headingStyles = {
 
 const navStyle = {
   marginBottom: 64,
-  textAlign: "center",
 }
 
 // data
@@ -160,7 +167,7 @@ const IndexPage = () => {
                   <div class="content">
                     <p class="card-header-title">
                       <a
-                        style={linkStyle}
+                        style={navLinkStyle}
                         href={`${link.url}`}
                       >
                         {link.text}

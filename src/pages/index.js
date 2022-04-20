@@ -49,6 +49,11 @@ const titleStyle = {
   textAlign: "center",
 }
 
+const navLinkStyle = {
+  color: "#8954A8",
+  textAlign: "center",
+}
+
 const descriptionStyle = {
   color: "#5e5e5e",
   fontSize: 14,
@@ -161,7 +166,7 @@ const IndexPage = () => {
                       style={linkStyle}
                       href={`${link.url}`}
                     >
-                      <h2 class="subtitle" style={titleStyle}>{link.text}</h2>
+                      <h2 style={navLinkStyle}>{link.text}</h2>
                     </a>
                   </div>
                 </div>

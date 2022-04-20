@@ -88,20 +88,14 @@ const links = [
   {
     text: "GitHub",
     url: "https://github.com/tacoda",
-    description:
-      "My code repositories",
   },
   {
-    text: "Email",
-    url: "mailto:tacoda@hey.com",
-    description:
-      "tacoda@hey.com",
+    text: "Contact Me",
+    url: "https://14c3lb7tvwf.typeform.com/to/A6wavkIt",
   },
   {
     text: "CV",
     url: "/cv.pdf",
-    description:
-      "My CV",
   },
 ]
 
@@ -195,9 +189,6 @@ const IndexPage = () => {
           Technologies that I have used include Bash, Ruby, JavaScript, Elixir, Clojure, Rust,
           Rails, Phoenix, React, LiveView, Sass, Bootstrap, jQuery, Bulma, Tailwind, Font Awesome,
           Git, Linux, Docker, Kubernetes, Azure, AWS, and Heroku. I have also contributed to open source projects.
-        </p>
-        <p style={paragraphStyles}>
-          If you are interested in connecting with me, please see the contact link below.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Projects

@@ -166,7 +166,7 @@ const IndexPage = () => {
                       style={linkStyle}
                       href={`${link.url}`}
                     >
-                      <h2 style={navLinkStyle}>{link.text}</h2>
+                      <h3 style={navLinkStyle}>{link.text}</h3>
                     </a>
                   </div>
                 </div>
@@ -182,9 +182,8 @@ const IndexPage = () => {
         <hr />
         <p style={paragraphStyles}>
           I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          Web application security is very interesting to me. The ways in which web applications
-          switch language contexts allows for a very interesting attack surface that tends to be
-          very impactful to business operations given the ubiquity of the internet.
+          Web application security is very interesting to me. Web applications have
+          a very interesting attack surface, which has a large impact on business operations.
           I am always interested in learning more about security and cloud computing.
         </p>
         <p style={paragraphStyles}>

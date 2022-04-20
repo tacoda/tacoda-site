@@ -181,19 +181,16 @@ const IndexPage = () => {
           {links.map(link => (
             <div class="column is-one-third">
               <div class="card">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a
-                      style={linkStyle}
-                      href={`${link.url}`}
-                    >
-                      {link.text}
-                    </a>
-                  </p>
-                </header>
                 <div class="card-content">
                   <div class="content">
-                    <p style={descriptionStyle}>{link.description}</p>
+                    <p class="card-header-title">
+                      <a
+                        style={linkStyle}
+                        href={`${link.url}`}
+                      >
+                        {link.text}
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>

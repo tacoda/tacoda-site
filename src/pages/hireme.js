@@ -124,8 +124,17 @@ const HireMePage = () => {
           I can help bring your vision from idea to production.
           I am familiar with technologies in the entire web stack.
           I am comfortable working with databases, memory caches,
-          job queues, Linux distributions,
-          containers, backend code, and frontend code.
+          job queues, web servers, cloud services, Linux distributions,
+          containers and orchestration, Bash scripting, backend code, and frontend code.
+          I have also worked extensively with REST web APIs and I have
+          utilized them to integrate payment systems into web applications.
+        </p>
+        <h2 class="subtitle" style={titleStyle}>
+          How I work
+        </h2>
+        <hr />
+        <p style={paragraphStyles}>
+          It is important to me to win as a team.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Skills
@@ -134,6 +143,8 @@ const HireMePage = () => {
         <p style={paragraphStyles}>
           I have worked with many different web technologies including:
           Ruby, Rails, React, Phoenix, LiveView, Bulma, Tailwind, and Sass.
+          I have worked with several different cloud platforms such as
+          AWS, Azure, and Heroku.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Interests

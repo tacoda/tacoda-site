@@ -134,7 +134,22 @@ const HireMePage = () => {
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          It is important to me to win as a team.
+          I like interactive organizational roles and I enjoy working with people and using information to provide a service.
+          Cordial, considerate and consensus-driven in approach. Flexible but judicious when leading.
+          Obtains agreement on policies and procedures, increases morale through participation, and facilitates a process.
+          Organizes and coordinates activities and encourages cooperation to get things done.
+        </p>
+        <p style={paragraphStyles}>
+          I strive to be flexible and I promote a team approach.
+          I expect to have a definite goal and to have a say in the outcome.
+          To overcome problems, I look for choices, discuss options and try to find a positive way out.
+        </p>
+        <p style={paragraphStyles}>
+          I am motivated to anticipate potential problems and prepare for action.
+          When making decisions, I guard against being surprised, build a strategy,
+          and commit myself to a doable outcome.
+          Under pressure, I slow my response time and look at potential choices.
+          My confidence is increased by dialog to develop a reasonable position.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Skills

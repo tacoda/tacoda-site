@@ -88,45 +88,8 @@ const navStyle = {
   marginBottom: 64,
 }
 
-// data
-const links = [
-  {
-    text: "GitHub",
-    url: "https://github.com/tacoda",
-  },
-  {
-    text: "Contact Me",
-    url: "https://14c3lb7tvwf.typeform.com/to/A6wavkIt",
-  },
-  {
-    text: "Hire Me",
-    url: "/hireme",
-  },
-]
-
-const projects = [
-  {
-    text: "wl",
-    url: "https://github.com/tacoda/wl",
-    description:
-      "WhoIs Lookup Tool",
-  },
-  {
-    text: "Roarum",
-    url: "https://github.com/tacoda/roarum",
-    description:
-      "Web Forum",
-  },
-  {
-    text: "Jaws",
-    url: "https://github.com/tacoda/jaws",
-    description:
-      "AWS Command Line Tool",
-  },
-]
-
 // markup
-const IndexPage = () => {
+const HireMePage = () => {
   return (
     <main style={pageStyles}>
       <title>Ian Johnson</title>
@@ -151,26 +114,6 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <nav style={navStyle}>
-        <div class="columns">
-          {links.map(link => (
-            <div class="column is-one-third">
-              <div class="card">
-                <div class="card-content">
-                  <div class="content">
-                    <a
-                      style={linkStyle}
-                      href={`${link.url}`}
-                    >
-                      <h3 style={navLinkStyle}>{link.text}</h3>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </nav>
       <div>
         <h2 class="subtitle" style={titleStyle}>
           About Me
@@ -187,32 +130,19 @@ const IndexPage = () => {
           Projects
         </h2>
         <hr />
-        <div class="columns">
-          {projects.map(proj => (
-            <div class="column is-one-third">
-              <div class="card">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a
-                      style={linkStyle}
-                      href={`${proj.url}`}
-                    >
-                      {proj.text}
-                    </a>
-                  </p>
-                </header>
-                <div class="card-content">
-                  <div class="content">
-                    <p style={descriptionStyle}>{proj.description}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <p style={paragraphStyles}>
+          I am a fullstack web developer with a penchant for Ruby on Rails and React.
+          Web application security is extremely interesting to me. Web applications have
+          a very unique attack surface, which has a large impact on business operations.
+          I am always interested in learning more about security and cloud computing.
+          I also enjoy contributing to open source projects.
+        </p>
+        <p style={paragraphStyles}>
+          <Link to="/">Go home</Link>.
+        </p>
       </div>
     </main>
   )
 }
 
-export default IndexPage
+export default HireMePage

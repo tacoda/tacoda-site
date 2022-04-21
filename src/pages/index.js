@@ -100,7 +100,7 @@ const links = [
   },
   {
     text: "Hire Me",
-    url: "/hireme",
+    url: "/hireme.html",
   },
 ]
 

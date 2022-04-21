@@ -117,26 +117,31 @@ const HireMePage = () => {
       </div>
       <div>
         <h2 class="subtitle" style={titleStyle}>
-          About Me
+          How I can help your organization
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          Web application security is extremely interesting to me. Web applications have
-          a very unique attack surface, which has a large impact on business operations.
-          I am always interested in learning more about security and cloud computing.
-          I also enjoy contributing to open source projects.
+          I can help bring your vision from idea to production.
+          I am familiar with technologies in the entire web stack.
+          I am comfortable working with databases, memory caches,
+          job queues, Linux distributions,
+          containers, backend code, and frontend code.
         </p>
         <h2 class="subtitle" style={titleStyle}>
-          Projects
+          Skills
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          Web application security is extremely interesting to me. Web applications have
-          a very unique attack surface, which has a large impact on business operations.
-          I am always interested in learning more about security and cloud computing.
-          I also enjoy contributing to open source projects.
+          I have worked with many different web technologies including:
+          Ruby, Rails, React, Phoenix, LiveView, Bulma, Tailwind, and Sass.
+        </p>
+        <h2 class="subtitle" style={titleStyle}>
+          Interests
+        </h2>
+        <hr />
+        <p style={paragraphStyles}>
+          I am very interested in web application security, cloud computing,
+          and applications of blockchain.
         </p>
         <p style={paragraphStyles}>
           <Link to="/">Go home</Link>.

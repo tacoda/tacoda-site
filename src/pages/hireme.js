@@ -135,7 +135,7 @@ const HireMePage = () => {
         <hr />
         <p style={paragraphStyles}>
           I like interactive organizational roles and I enjoy working with people and using information to provide a service.
-          Cordial, considerate and consensus-driven in approach. Flexible but judicious when leading.
+          My approach is cordial, considerate and consensus-driven. Flexible but judicious when leading.
           Obtains agreement on policies and procedures, increases morale through participation, and facilitates a process.
           Organizes and coordinates activities and encourages cooperation to get things done.
         </p>
@@ -156,21 +156,23 @@ const HireMePage = () => {
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          I have worked with many different web technologies including:
-          Ruby, Rails, React, Phoenix, LiveView, Bulma, Tailwind, and Sass.
-          I have worked with several different cloud platforms such as
-          AWS, Azure, and Heroku.
+          I have worked with many different languages and paradigms. The languages that I am most comfortable with are:
+          Python, Ruby, JavaScript, CoffeeScript, TypeScript, Elixir, Haskell, Clojure, Scheme, and Rust.
+          I have worked with a variety of web technologies including:
+          NodeJS, Express, Flask, Rails, Actix, Rocket, Phoenix, OTP, React, LiveView, Elm, Vue, Svelte, Bootstrap, Bulma, Tailwind, and Sass.
+          I have worked extensively with Linux systems, mostly with the Debian, Ubuntu, Fedora, and CentOS distributions.
+          I have worked with several different cloud platforms such as AWS, Azure, and Heroku.
+          In addition, I am very comfortable working with Docker, Kubernetes, and Nix.
         </p>
         <h2 class="subtitle" style={titleStyle}>
           Interests
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          I am very interested in web application security, cloud computing,
-          and applications of blockchain.
+          I am very interested in web application security, cloud computing, and applications of blockchain.
         </p>
         <p style={paragraphStyles}>
-          <Link to="/">Go home</Link>.
+          <Link to="/">Home</Link>
         </p>
       </div>
     </main>

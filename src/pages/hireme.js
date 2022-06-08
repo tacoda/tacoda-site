@@ -150,7 +150,8 @@ const HireMePage = () => {
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          I have worked with many different languages and paradigms. The languages that I am most comfortable with are:
+          I have worked with many different languages and paradigms.
+        </p>
           <span style={badgeStyle}>
             Python
           </span>
@@ -187,12 +188,93 @@ const HireMePage = () => {
           <span style={badgeStyle}>
             Rust
           </span>
-          I have worked with a variety of web technologies including:
-          NodeJS, Express, Rails, Actix, Rocket, Phoenix, OTP, React, LiveView, Elm, Vue, Svelte, Bootstrap, Bulma, Tailwind, and Sass.
-          I have worked extensively with Linux systems, mostly with the Debian, Ubuntu, Fedora, and CentOS distributions.
-          I have worked with several different cloud platforms such as AWS, Azure, and Heroku.
-          In addition, I am very comfortable working with Docker, Kubernetes, and Nix.
+        <p style={paragraphStyles}>
+          I have worked with a variety of web technologies.
         </p>
+          <span style={badgeStyle}>
+            NodeJs
+          </span>
+          <span style={badgeStyle}>
+            Express
+          </span>
+          <span style={badgeStyle}>
+            Rails
+          </span>
+          <span style={badgeStyle}>
+            Actix
+          </span>
+          <span style={badgeStyle}>
+            Rocket
+          </span>
+          <span style={badgeStyle}>
+            Phoenix
+          </span>
+          <span style={badgeStyle}>
+            OTP
+          </span>
+          <span style={badgeStyle}>
+            React
+          </span>
+          <span style={badgeStyle}>
+            LiveView
+          </span>
+          <span style={badgeStyle}>
+            Elm
+          </span>
+          <span style={badgeStyle}>
+            Svelte
+          </span>
+          <span style={badgeStyle}>
+            Bootstrap
+          </span>
+          <span style={badgeStyle}>
+            Bulma
+          </span>
+          <span style={badgeStyle}>
+            Tailwind
+          </span>
+          <span style={badgeStyle}>
+            Sass
+          </span>
+        <p style={paragraphStyles}>
+          I have worked extensively with Linux systems.
+        </p>
+          <span style={badgeStyle}>
+            Debian
+          </span>
+          <span style={badgeStyle}>
+            Ubuntu
+          </span>
+          <span style={badgeStyle}>
+            Fedora
+          </span>
+          <span style={badgeStyle}>
+            CentOS
+          </span>
+        <p style={paragraphStyles}>
+          I have worked with several different cloud platforms.
+        </p>
+          <span style={badgeStyle}>
+            AWS
+          </span>
+          <span style={badgeStyle}>
+            Azure
+          </span>
+          <span style={badgeStyle}>
+            Heroku
+          </span>
+        <p style={paragraphStyles}>
+          In addition, I am very comfortable working with operational tools.
+        </p>
+          <span style={badgeStyle}>
+            Docker
+          </span>
+          <span style={badgeStyle}>
+            Kubernetes
+          </span>
+          <span style={badgeStyle}>
+            Nix
+          </span>
         <h2 class="subtitle" style={titleStyle}>
           Interests
         </h2>

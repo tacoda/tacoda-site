@@ -315,10 +315,16 @@ const HireMePage = () => {
             Cassandra
           </span>
           <span style={badgeStyle}>
-            Mesos
+            CouchDB
+          </span>
+          <span style={badgeStyle}>
+            MongoDB
           </span>
           <span style={badgeStyle}>
             MySQL
+          </span>
+          <span style={badgeStyle}>
+            MariaDB
           </span>
           <span style={badgeStyle}>
             PostgreSQL
@@ -334,6 +340,9 @@ const HireMePage = () => {
           </span>
           <span style={badgeStyle}>
             Kubernetes
+          </span>
+          <span style={badgeStyle}>
+            Mesos
           </span>
           <span style={badgeStyle}>
             Consul

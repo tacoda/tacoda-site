@@ -95,6 +95,10 @@ const navStyle = {
   marginBottom: 64,
 }
 
+const langTags = [
+  "Ruby",
+]
+
 // markup
 const HireMePage = () => {
   return (
@@ -158,6 +162,11 @@ const HireMePage = () => {
         <p style={paragraphStyles}>
           I have worked with many different languages and paradigms.
         </p>
+        <div style={badgesListStyle}>
+        {langTags.map(tag => (
+          <span style={badgeStyle}>`${tag}`</span>
+        ))}
+        </div>
         <div style={badgesListStyle}>
           <span style={badgeStyle}>
             Ruby
@@ -312,9 +321,6 @@ const HireMePage = () => {
             Kafka
           </span>
           <span style={badgeStyle}>
-            Airflow
-          </span>
-          <span style={badgeStyle}>
             Hadoop
           </span>
           <span style={badgeStyle}>
@@ -340,6 +346,15 @@ const HireMePage = () => {
           </span>
           <span style={badgeStyle}>
             Redis
+          </span>
+          <span style={badgeStyle}>
+            Airflow
+          </span>
+          <span style={badgeStyle}>
+            Sidekiq
+          </span>
+          <span style={badgeStyle}>
+            Slurm
           </span>
           <span style={badgeStyle}>
             Docker

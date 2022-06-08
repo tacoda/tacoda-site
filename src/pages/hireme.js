@@ -151,9 +151,12 @@ const HireMePage = () => {
         <hr />
         <p style={paragraphStyles}>
           I have worked with many different languages and paradigms. The languages that I am most comfortable with are:
-          Python, Ruby, JavaScript, CoffeeScript, TypeScript, Elixir, Haskell, Clojure, Scheme, and Rust.
+          <span style={badgeStyle}>
+            Python
+          </span>
+            Python, Ruby, JavaScript, CoffeeScript, TypeScript, Elixir, Haskell, OCaml, Clojure, Scheme, C, and Rust.
           I have worked with a variety of web technologies including:
-          NodeJS, Express, Flask, Rails, Actix, Rocket, Phoenix, OTP, React, LiveView, Elm, Vue, Svelte, Bootstrap, Bulma, Tailwind, and Sass.
+          NodeJS, Express, Rails, Actix, Rocket, Phoenix, OTP, React, LiveView, Elm, Vue, Svelte, Bootstrap, Bulma, Tailwind, and Sass.
           I have worked extensively with Linux systems, mostly with the Debian, Ubuntu, Fedora, and CentOS distributions.
           I have worked with several different cloud platforms such as AWS, Azure, and Heroku.
           In addition, I am very comfortable working with Docker, Kubernetes, and Nix.

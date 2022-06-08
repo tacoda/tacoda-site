@@ -67,7 +67,7 @@ const badgeStyle = {
   color: "#fff",
   backgroundColor: "#088413",
   border: "1px solid #088413",
-  fontSize: 11,
+  fontSize: 1rem;
   fontWeight: "bold",
   letterSpacing: 1,
   borderRadius: 4,
@@ -154,7 +154,39 @@ const HireMePage = () => {
           <span style={badgeStyle}>
             Python
           </span>
-            Python, Ruby, JavaScript, CoffeeScript, TypeScript, Elixir, Haskell, OCaml, Clojure, Scheme, C, and Rust.
+          <span style={badgeStyle}>
+            Ruby
+          </span>
+          <span style={badgeStyle}>
+            JavaScript
+          </span>
+          <span style={badgeStyle}>
+            CoffeeScript
+          </span>
+          <span style={badgeStyle}>
+            TypeScript
+          </span>
+          <span style={badgeStyle}>
+            Elixir
+          </span>
+          <span style={badgeStyle}>
+            Haskell
+          </span>
+          <span style={badgeStyle}>
+            OCaml
+          </span>
+          <span style={badgeStyle}>
+            Clojure
+          </span>
+          <span style={badgeStyle}>
+            Scheme
+          </span>
+          <span style={badgeStyle}>
+            C
+          </span>
+          <span style={badgeStyle}>
+            Rust
+          </span>
           I have worked with a variety of web technologies including:
           NodeJS, Express, Rails, Actix, Rocket, Phoenix, OTP, React, LiveView, Elm, Vue, Svelte, Bootstrap, Bulma, Tailwind, and Sass.
           I have worked extensively with Linux systems, mostly with the Debian, Ubuntu, Fedora, and CentOS distributions.

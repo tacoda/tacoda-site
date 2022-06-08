@@ -44,6 +44,7 @@ const linkStyle = {
 
 const centered = {
   margin: "0 auto",
+  textAlign: "center",
 }
 
 const titleStyle = {

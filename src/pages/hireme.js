@@ -312,6 +312,12 @@ const HireMePage = () => {
             Kafka
           </span>
           <span style={badgeStyle}>
+            Airflow
+          </span>
+          <span style={badgeStyle}>
+            Hadoop
+          </span>
+          <span style={badgeStyle}>
             Cassandra
           </span>
           <span style={badgeStyle}>
@@ -361,6 +367,20 @@ const HireMePage = () => {
           </span>
           <span style={badgeStyle}>
             Splunk
+          </span>
+        </div>
+        <p style={paragraphStyles}>
+          I have experience working with AppSec tools.
+        </p>
+        <div style={badgesListStyle}>
+          <span style={badgeStyle}>
+            Burp
+          </span>
+          <span style={badgeStyle}>
+            Bloodhound
+          </span>
+          <span style={badgeStyle}>
+            Metasploit
           </span>
         </div>
         <h2 class="subtitle" style={titleStyle}>

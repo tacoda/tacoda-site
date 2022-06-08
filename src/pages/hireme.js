@@ -44,7 +44,12 @@ const linkStyle = {
 
 const centered = {
   margin: "0 auto",
+}
+
+const badgesListStyle = {
+  margin: "0 auto",
   textAlign: "center",
+  marginBottom: "1rem",
 }
 
 const titleStyle = {
@@ -66,8 +71,8 @@ const descriptionStyle = {
 
 const badgeStyle = {
   color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
+  backgroundColor: "#8954A8",
+  border: "1px solid #8954A8",
   fontSize: "1rem",
   fontWeight: "bold",
   letterSpacing: 1,
@@ -153,7 +158,7 @@ const HireMePage = () => {
         <p style={paragraphStyles}>
           I have worked with many different languages and paradigms.
         </p>
-        <div style={centered}>
+        <div style={badgesListStyle}>
           <span style={badgeStyle}>
             Python
           </span>
@@ -194,7 +199,7 @@ const HireMePage = () => {
         <p style={paragraphStyles}>
           I have worked with a variety of web technologies.
         </p>
-        <div style={centered}>
+        <div style={badgesListStyle}>
           <span style={badgeStyle}>
             NodeJs
           </span>
@@ -244,7 +249,7 @@ const HireMePage = () => {
         <p style={paragraphStyles}>
           I have worked extensively with Linux systems.
         </p>
-        <div style={centered}>
+        <div style={badgesListStyle}>
           <span style={badgeStyle}>
             Debian
           </span>
@@ -261,7 +266,7 @@ const HireMePage = () => {
         <p style={paragraphStyles}>
           I have worked with several different cloud platforms.
         </p>
-        <div style={centered}>
+        <div style={badgesListStyle}>
           <span style={badgeStyle}>
             AWS
           </span>
@@ -275,7 +280,7 @@ const HireMePage = () => {
         <p style={paragraphStyles}>
           In addition, I am very comfortable working with operational tools.
         </p>
-        <div style={centered}>
+        <div style={badgesListStyle}>
           <span style={badgeStyle}>
             Docker
           </span>

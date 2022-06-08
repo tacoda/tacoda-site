@@ -294,11 +294,41 @@ const HireMePage = () => {
           <span style={badgeStyle}>
             Heroku
           </span>
+          <span style={badgeStyle}>
+            Terraform
+          </span>
         </div>
         <p style={paragraphStyles}>
-          In addition, I am very comfortable working with operational tools.
+          I am very comfortable working with operational tools, databases, caches, and other services.
         </p>
         <div style={badgesListStyle}>
+          <span style={badgeStyle}>
+            Apache
+          </span>
+          <span style={badgeStyle}>
+            Nginx
+          </span>
+          <span style={badgeStyle}>
+            Kafka
+          </span>
+          <span style={badgeStyle}>
+            Cassandra
+          </span>
+          <span style={badgeStyle}>
+            Mesos
+          </span>
+          <span style={badgeStyle}>
+            MySQL
+          </span>
+          <span style={badgeStyle}>
+            PostgreSQL
+          </span>
+          <span style={badgeStyle}>
+            Memcached
+          </span>
+          <span style={badgeStyle}>
+            Redis
+          </span>
           <span style={badgeStyle}>
             Docker
           </span>
@@ -306,7 +336,22 @@ const HireMePage = () => {
             Kubernetes
           </span>
           <span style={badgeStyle}>
+            Consul
+          </span>
+          <span style={badgeStyle}>
             Nix
+          </span>
+          <span style={badgeStyle}>
+            Datadog
+          </span>
+          <span style={badgeStyle}>
+            Grafana
+          </span>
+          <span style={badgeStyle}>
+            Sentry
+          </span>
+          <span style={badgeStyle}>
+            Splunk
           </span>
         </div>
         <h2 class="subtitle" style={titleStyle}>
@@ -314,7 +359,7 @@ const HireMePage = () => {
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          I am very interested in web application security, cloud computing, and applications of blockchain.
+          My interests include web application security, cloud computing, and applications of blockchain.
         </p>
         <p style={paragraphStyles}>
           <Link to="/">Home</Link>

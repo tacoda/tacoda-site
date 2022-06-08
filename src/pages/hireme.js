@@ -49,7 +49,7 @@ const centered = {
 const badgesListStyle = {
   margin: "0 auto",
   textAlign: "center",
-  marginBottom: "1rem",
+  marginBottom: "2rem",
 }
 
 const titleStyle = {
@@ -194,6 +194,12 @@ const HireMePage = () => {
           </span>
           <span style={badgeStyle}>
             Rust
+          </span>
+          <span style={badgeStyle}>
+            Nim
+          </span>
+          <span style={badgeStyle}>
+            Zig
           </span>
         </div>
         <p style={paragraphStyles}>

@@ -160,10 +160,13 @@ const HireMePage = () => {
         </p>
         <div style={badgesListStyle}>
           <span style={badgeStyle}>
+            Ruby
+          </span>
+          <span style={badgeStyle}>
             Python
           </span>
           <span style={badgeStyle}>
-            Ruby
+            PHP
           </span>
           <span style={badgeStyle}>
             JavaScript
@@ -207,13 +210,19 @@ const HireMePage = () => {
         </p>
         <div style={badgesListStyle}>
           <span style={badgeStyle}>
-            NodeJs
+            NodeJS
           </span>
           <span style={badgeStyle}>
             Express
           </span>
           <span style={badgeStyle}>
             Rails
+          </span>
+          <span style={badgeStyle}>
+            Flask
+          </span>
+          <span style={badgeStyle}>
+            Laravel
           </span>
           <span style={badgeStyle}>
             Actix
@@ -235,6 +244,9 @@ const HireMePage = () => {
           </span>
           <span style={badgeStyle}>
             Elm
+          </span>
+          <span style={badgeStyle}>
+            Vue
           </span>
           <span style={badgeStyle}>
             Svelte

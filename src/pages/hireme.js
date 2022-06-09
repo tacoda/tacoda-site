@@ -97,6 +97,88 @@ const navStyle = {
 
 const langTags = [
   "Ruby",
+  "Python",
+  "PHP",
+  "JavaScript",
+  "CoffeeScript",
+  "TypeScript",
+  "Elixir",
+  "Haskell",
+  "OCaml",
+  "Clojure",
+  "Scheme",
+  "C",
+  "Rust",
+  "Nim",
+  "Zig",
+]
+
+const webTags = [
+  "NodeJS",
+  "Express",
+  "Rails",
+  "Flask",
+  "Laravel",
+  "Actix",
+  "Rocket",
+  "Phoenix",
+  "OTP",
+  "React",
+  "LiveView",
+  "Elm",
+  "Vue",
+  "Svelte",
+  "Bootstrap",
+  "Bulma",
+  "Tailwind",
+  "Sass",
+]
+
+const linuxTags = [
+  "Debian",
+  "Ubuntu",
+  "Fedora",
+  "CentOS",
+]
+
+const cloudTags = [
+  "AWS",
+  "Azure",
+  "Heroku",
+  "Terraform",
+]
+
+const toolTags = [
+  "Apache",
+  "Nginx",
+  "Kafka",
+  "Hadoop",
+  "Cassandra",
+  "CouchDB",
+  "MongoDB",
+  "MySQL",
+  "MariaDB",
+  "PostgreSQL",
+  "Memcached",
+  "Redis",
+  "Airflow",
+  "Sidekiq",
+  "Slurm",
+  "Docker",
+  "Kubernetes",
+  "Mesos",
+  "Consul",
+  "Nix",
+  "Datadog",
+  "Grafana",
+  "Sentry",
+  "Splunk",
+]
+
+const secTags = [
+  "Burp",
+  "Bloodhound",
+  "Metasploit",
 ]
 
 // markup
@@ -164,239 +246,48 @@ const HireMePage = () => {
         </p>
         <div style={badgesListStyle}>
         {langTags.map(tag => (
-          <span style={badgeStyle}>`${tag}`</span>
+          <span style={badgeStyle}>{tag}</span>
         ))}
-        </div>
-        <div style={badgesListStyle}>
-          <span style={badgeStyle}>
-            Ruby
-          </span>
-          <span style={badgeStyle}>
-            Python
-          </span>
-          <span style={badgeStyle}>
-            PHP
-          </span>
-          <span style={badgeStyle}>
-            JavaScript
-          </span>
-          <span style={badgeStyle}>
-            CoffeeScript
-          </span>
-          <span style={badgeStyle}>
-            TypeScript
-          </span>
-          <span style={badgeStyle}>
-            Elixir
-          </span>
-          <span style={badgeStyle}>
-            Haskell
-          </span>
-          <span style={badgeStyle}>
-            OCaml
-          </span>
-          <span style={badgeStyle}>
-            Clojure
-          </span>
-          <span style={badgeStyle}>
-            Scheme
-          </span>
-          <span style={badgeStyle}>
-            C
-          </span>
-          <span style={badgeStyle}>
-            Rust
-          </span>
-          <span style={badgeStyle}>
-            Nim
-          </span>
-          <span style={badgeStyle}>
-            Zig
-          </span>
         </div>
         <p style={paragraphStyles}>
           I have worked with a variety of web technologies.
         </p>
         <div style={badgesListStyle}>
-          <span style={badgeStyle}>
-            NodeJS
-          </span>
-          <span style={badgeStyle}>
-            Express
-          </span>
-          <span style={badgeStyle}>
-            Rails
-          </span>
-          <span style={badgeStyle}>
-            Flask
-          </span>
-          <span style={badgeStyle}>
-            Laravel
-          </span>
-          <span style={badgeStyle}>
-            Actix
-          </span>
-          <span style={badgeStyle}>
-            Rocket
-          </span>
-          <span style={badgeStyle}>
-            Phoenix
-          </span>
-          <span style={badgeStyle}>
-            OTP
-          </span>
-          <span style={badgeStyle}>
-            React
-          </span>
-          <span style={badgeStyle}>
-            LiveView
-          </span>
-          <span style={badgeStyle}>
-            Elm
-          </span>
-          <span style={badgeStyle}>
-            Vue
-          </span>
-          <span style={badgeStyle}>
-            Svelte
-          </span>
-          <span style={badgeStyle}>
-            Bootstrap
-          </span>
-          <span style={badgeStyle}>
-            Bulma
-          </span>
-          <span style={badgeStyle}>
-            Tailwind
-          </span>
-          <span style={badgeStyle}>
-            Sass
-          </span>
+        {webTags.map(tag => (
+          <span style={badgeStyle}>{tag}</span>
+        ))}
         </div>
         <p style={paragraphStyles}>
           I have worked extensively with Linux systems.
         </p>
         <div style={badgesListStyle}>
-          <span style={badgeStyle}>
-            Debian
-          </span>
-          <span style={badgeStyle}>
-            Ubuntu
-          </span>
-          <span style={badgeStyle}>
-            Fedora
-          </span>
-          <span style={badgeStyle}>
-            CentOS
-          </span>
+        {linuxTags.map(tag => (
+          <span style={badgeStyle}>{tag}</span>
+        ))}
         </div>
         <p style={paragraphStyles}>
           I have worked with several different cloud platforms.
         </p>
         <div style={badgesListStyle}>
-          <span style={badgeStyle}>
-            AWS
-          </span>
-          <span style={badgeStyle}>
-            Azure
-          </span>
-          <span style={badgeStyle}>
-            Heroku
-          </span>
-          <span style={badgeStyle}>
-            Terraform
-          </span>
+        {cloudTags.map(tag => (
+          <span style={badgeStyle}>{tag}</span>
+        ))}
         </div>
         <p style={paragraphStyles}>
           I am very comfortable working with operational tools, databases, caches, and other services.
         </p>
         <div style={badgesListStyle}>
-          <span style={badgeStyle}>
-            Apache
-          </span>
-          <span style={badgeStyle}>
-            Nginx
-          </span>
-          <span style={badgeStyle}>
-            Kafka
-          </span>
-          <span style={badgeStyle}>
-            Hadoop
-          </span>
-          <span style={badgeStyle}>
-            Cassandra
-          </span>
-          <span style={badgeStyle}>
-            CouchDB
-          </span>
-          <span style={badgeStyle}>
-            MongoDB
-          </span>
-          <span style={badgeStyle}>
-            MySQL
-          </span>
-          <span style={badgeStyle}>
-            MariaDB
-          </span>
-          <span style={badgeStyle}>
-            PostgreSQL
-          </span>
-          <span style={badgeStyle}>
-            Memcached
-          </span>
-          <span style={badgeStyle}>
-            Redis
-          </span>
-          <span style={badgeStyle}>
-            Airflow
-          </span>
-          <span style={badgeStyle}>
-            Sidekiq
-          </span>
-          <span style={badgeStyle}>
-            Slurm
-          </span>
-          <span style={badgeStyle}>
-            Docker
-          </span>
-          <span style={badgeStyle}>
-            Kubernetes
-          </span>
-          <span style={badgeStyle}>
-            Mesos
-          </span>
-          <span style={badgeStyle}>
-            Consul
-          </span>
-          <span style={badgeStyle}>
-            Nix
-          </span>
-          <span style={badgeStyle}>
-            Datadog
-          </span>
-          <span style={badgeStyle}>
-            Grafana
-          </span>
-          <span style={badgeStyle}>
-            Sentry
-          </span>
-          <span style={badgeStyle}>
-            Splunk
-          </span>
+        {toolTags.map(tag => (
+          <span style={badgeStyle}>{tag}</span>
+        ))}
         </div>
         <p style={paragraphStyles}>
           I have experience working with AppSec tools.
         </p>
         <div style={badgesListStyle}>
-          <span style={badgeStyle}>
-            Burp
-          </span>
-          <span style={badgeStyle}>
-            Bloodhound
-          </span>
-          <span style={badgeStyle}>
-            Metasploit
-          </span>
+        {secTags.map(tag => (
+          <span style={badgeStyle}>{tag}</span>
+        ))}
         </div>
         <h2 class="subtitle" style={titleStyle}>
           Interests

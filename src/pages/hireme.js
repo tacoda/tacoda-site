@@ -108,6 +108,7 @@ const langTags = [
   "OCaml",
   "Clojure",
   "Scheme",
+  "Bash",
   "C",
   "Rust",
   "Nim",
@@ -145,6 +146,8 @@ const linuxTags = [
 const cloudTags = [
   "AWS",
   "Azure",
+  "GCP",
+  "Gigalixir",
   "Heroku",
   "Terraform",
 ]

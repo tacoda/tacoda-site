@@ -95,8 +95,12 @@ const links = [
     url: "https://github.com/tacoda",
   },
   {
+    text: "Codeberg",
+    url: "https://codeberg.org/tacoda",
+  },
+  {
     text: "Contact Me",
-    url: "https://14c3lb7tvwf.typeform.com/to/A6wavkIt",
+    url: "mailto:ijohnson@tacoda.dev",
   },
   {
     text: "Hire Me",
@@ -154,7 +158,7 @@ const IndexPage = () => {
       <nav style={navStyle}>
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-third">
+            <div class="column is-one-fourth">
               <div class="card">
                 <div class="card-content">
                   <div class="content">

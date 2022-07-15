@@ -111,8 +111,6 @@ const langTags = [
   "Bash",
   "C",
   "Rust",
-  "Nim",
-  "Zig",
 ]
 
 const webTags = [
@@ -141,22 +139,24 @@ const linuxTags = [
   "Ubuntu",
   "Fedora",
   "CentOS",
+  "FreeBSD",
 ]
 
 const cloudTags = [
   "AWS",
   "Azure",
   "GCP",
+  "Linode",
   "Gigalixir",
   "Heroku",
   "Terraform",
 ]
 
 const toolTags = [
+  "Ansible",
   "Apache",
   "Nginx",
   "Kafka",
-  "Hadoop",
   "Cassandra",
   "CouchDB",
   "MongoDB",
@@ -165,12 +165,9 @@ const toolTags = [
   "PostgreSQL",
   "Memcached",
   "Redis",
-  "Airflow",
   "Sidekiq",
-  "Slurm",
   "Docker",
   "Kubernetes",
-  "Mesos",
   "Consul",
   "Nix",
   "Datadog",

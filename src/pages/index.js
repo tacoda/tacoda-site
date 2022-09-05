@@ -95,8 +95,8 @@ const links = [
     url: "https://github.com/tacoda",
   },
   {
-    text: "Codeberg",
-    url: "https://codeberg.org/tacoda",
+    text: "Exercism",
+    url: "https://exercism.org/profiles/tacoda",
   },
   {
     text: "Contact Me",
@@ -116,10 +116,10 @@ const projects = [
       "WhoIs Lookup Tool",
   },
   {
-    text: "Roarum",
-    url: "https://github.com/tacoda/roarum",
+    text: "Flix",
+    url: "https://github.com/tacoda/flix",
     description:
-      "Web Forum",
+      "Movie Database Web Application",
   },
   {
     text: "Jaws",

@@ -95,10 +95,6 @@ const links = [
     url: "https://github.com/tacoda",
   },
   {
-    text: "Exercism",
-    url: "https://exercism.org/profiles/tacoda",
-  },
-  {
     text: "Contact Me",
     url: "mailto:ijohnson@tacoda.dev",
   },
@@ -158,7 +154,7 @@ const IndexPage = () => {
       <nav style={navStyle}>
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-fourth">
+            <div class="column is-one-third">
               <div class="card">
                 <div class="card-content">
                   <div class="content">

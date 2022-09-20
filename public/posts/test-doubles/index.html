@@ -49,10 +49,36 @@
             </header>
         
         
-<main>
-    <h1 class="notfound">404: Page not found</h1>
-</main>
+        <main>
+            
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <div itemprop="headline">
+        <h1>Test Doubles</h1>
+        <div class="border"></div>
+        <time datetime="2022-09-20" class="date" itemprop="datePublished">
+            20 Sep 2022
+        </time>
+        
+            <span class="tag" itemprop="name">testing</span>
+        
+            <span class="tag" itemprop="name">ruby</span>
+        
+    </div>
+    <div itemprop="articleBody">
+        <h1 id="types-of-test-doubles">Types of Test Doubles</h1>
+<ul>
+<li><strong>Dummy:</strong> It is used as a <em>placeholder</em> when an argument needs to be filled in.</li>
+<li><strong>Stub:</strong> It provides fake data to the SUT (System Under Test).</li>
+<li><strong>Spy</strong>: It records information about how the class is being used.</li>
+<li><strong>Mock:</strong> It defines an expectation of how it will be used. It will cause a failure if the expectation isn’t met.</li>
+<li><strong>Fake:</strong> It is an actual implementation of the contract but is unsuitable for production.</li>
+</ul>
 
+    </div>
+</article>
+
+        </main>
+        
         <footer>
             
             <div class="border"></div>

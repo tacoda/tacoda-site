@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block head %}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {% if config.description -%}
+        <meta name="description" content="{{ config.description }}">
+        {% endif %}
+
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+
+        {% block css %}
+            <link rel="stylesheet" href="{{ get_url(path="theme.css", trailing_slash=false) | safe }}">
+        {% endblock css %}
+        {% endblock head %}
+    </head>
+    <body>
+        <div class="content">
+        {% block body%}
+        {% block header %}
+            <header>
+                <div class="header-left">
+                    <a href="{{ config.base_url }}" class="logo">{{ config.title }}</a>
+                </div>
+                <div class="header-right">
+                    <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                      <ul>
+                        <li class="nav">
+                            <a itemprop="url" href="https://www.tacoda.dev/">
+                                <span itemprop="name">Website</span>
+                            </a>
+                        </li>
+                        <li class="nav">
+                            <a itemprop="url" href="/">
+                                <span itemprop="name">Home</span>
+                            </a>
+                        </li>
+                        {% if config.extra.github %}
+                        <li class="nav">
+                            <a itemprop="url" href="https://github.com/{{ config.extra.github }}">
+                                <img class="icon" src="{{ config.base_url }}/icons/github.svg" alt="Github">
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if config.extra.twitter %}
+                        <li class="nav">
+                            <a itemprop="url" href="https://twitter.com/{{ config.extra.twitter }}">
+                                <img class="icon" src="{{ config.base_url }}/icons/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        {% endif %}
+                      </ul>
+                    </nav>
+                </div>
+            </header>
+        {% endblock header %}
+        {% block content %}
+        <main>
+            {% block main %}
+            <h1>Ian's Digital Garden</h1>
+            <div class="border"></div>
+                <ul>
+                {% set section = get_section(path="posts/_index.md") %}
+                {% for page in section.pages %}
+                    <li>
+                    <a href="{{ page.permalink | safe}}">
+                        {{ page.title }}
+                    </a>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endblock main %}
+        </main>
+        {% endblock content %}
+        <footer>
+            {% block footer %}
+            <div class="border"></div>
+            <div class="footer">
+                <small class="footer-left">
+                    Copyright &copy; {{ config.extra.author }}
+                </small>
+            </div>
+        {% endblock footer %}
+        </footer>
+    {% endblock body%}
+        </div>
+    </body>
+</html>

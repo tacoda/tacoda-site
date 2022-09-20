@@ -3,4 +3,20 @@
     <url>
         <loc>https://www.tacoda.dev/</loc>
     </url>
+    <url>
+        <loc>https://www.tacoda.dev/posts/</loc>
+    </url>
+    <url>
+        <loc>https://www.tacoda.dev/posts/test-doubles/</loc>
+        <lastmod>2022-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://www.tacoda.dev/tags/</loc>
+    </url>
+    <url>
+        <loc>https://www.tacoda.dev/tags/ruby/</loc>
+    </url>
+    <url>
+        <loc>https://www.tacoda.dev/tags/testing/</loc>
+    </url>
 </urlset>

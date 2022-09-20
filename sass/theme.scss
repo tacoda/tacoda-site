@@ -187,6 +187,10 @@ p > code {
     font-style: italic;
 }
 
+.is-rounded {
+    border-radius: 96px;
+}
+
 @media (max-width: 1200px) {
     .content {
         margin-left: 1em;

@@ -7,6 +7,8 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+generate_feed = true
+
 taxonomies = [
   {name = "tags"},
 ]
@@ -20,4 +22,3 @@ highlight_code = true
 # Put all your custom variables here
 author = "Ian Johnson"
 github = "tacoda"
-twitter = ""

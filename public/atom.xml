@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title></title>
+	<link href="https://www.tacoda.dev/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www.tacoda.dev"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-09-20T00:00:00+00:00</updated>
+	<id>https://www.tacoda.dev/atom.xml</id>
+	<entry xml:lang="en">
+		<title>About</title>
+		<published>2022-09-20T00:00:00+00:00</published>
+		<updated>2022-09-20T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.tacoda.dev/about/" type="text/html"/>
+		<id>https://www.tacoda.dev/about/</id>
+		<content type="html">&lt;h2 id=&quot;how-can-i-help-your-organization&quot;&gt;How Can I Help Your Organization?&lt;&#x2F;h2&gt;
+&lt;p&gt;I can help bring your vision from idea to production. I am familiar with technologies in the entire web stack. I am comfortable working with databases, memory caches, job queues, web servers, cloud services, Linux distributions, containers and orchestration, Bash scripting, backend code, and frontend code. I have also worked extensively with REST web APIs and I have utilized them to integrate third-party systems into web applications.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-do-i-work&quot;&gt;How Do I Work?&lt;&#x2F;h2&gt;
+&lt;p&gt;I like interactive organizational roles and I enjoy working with people and using information to provide a service. My approach is cordial, considerate and consensus-driven. When leading, I am flexible but judicious. My strategy is to organize and coordinate activities and encourage cooperation to get things done.&lt;&#x2F;p&gt;
+&lt;p&gt;I strive to be flexible and I promote a team approach. To overcome problems, I look for choices, discuss options and try to find a positive way out. I am motivated to anticipate potential problems and prepare for action. When making decisions, I guard against being surprised, build a strategy, and commit myself to a doable outcome. My confidence is increased by dialog to develop a reasonable position.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-skills-do-i-have&quot;&gt;What Skills Do I Have?&lt;&#x2F;h2&gt;
+&lt;p&gt;I have worked with many different languages and paradigms.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ruby&lt;&#x2F;li&gt;
+&lt;li&gt;Python&lt;&#x2F;li&gt;
+&lt;li&gt;PHP&lt;&#x2F;li&gt;
+&lt;li&gt;JavaScript&lt;&#x2F;li&gt;
+&lt;li&gt;CoffeeScript&lt;&#x2F;li&gt;
+&lt;li&gt;TypeScript&lt;&#x2F;li&gt;
+&lt;li&gt;Elixir&lt;&#x2F;li&gt;
+&lt;li&gt;Clojure&lt;&#x2F;li&gt;
+&lt;li&gt;Scheme&lt;&#x2F;li&gt;
+&lt;li&gt;Bash&lt;&#x2F;li&gt;
+&lt;li&gt;C&lt;&#x2F;li&gt;
+&lt;li&gt;Rust&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I have worked with a variety of web technologies.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;NodeJS&lt;&#x2F;li&gt;
+&lt;li&gt;Express&lt;&#x2F;li&gt;
+&lt;li&gt;Rails&lt;&#x2F;li&gt;
+&lt;li&gt;Flask&lt;&#x2F;li&gt;
+&lt;li&gt;Laravel&lt;&#x2F;li&gt;
+&lt;li&gt;Actix&lt;&#x2F;li&gt;
+&lt;li&gt;Phoenix&lt;&#x2F;li&gt;
+&lt;li&gt;OTP&lt;&#x2F;li&gt;
+&lt;li&gt;React&lt;&#x2F;li&gt;
+&lt;li&gt;LiveView&lt;&#x2F;li&gt;
+&lt;li&gt;Elm&lt;&#x2F;li&gt;
+&lt;li&gt;Vue&lt;&#x2F;li&gt;
+&lt;li&gt;Svelte&lt;&#x2F;li&gt;
+&lt;li&gt;Bootstrap&lt;&#x2F;li&gt;
+&lt;li&gt;Bulma&lt;&#x2F;li&gt;
+&lt;li&gt;Tailwind&lt;&#x2F;li&gt;
+&lt;li&gt;Sass&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I have worked extensively with Linux systems.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Debian&lt;&#x2F;li&gt;
+&lt;li&gt;Ubuntu&lt;&#x2F;li&gt;
+&lt;li&gt;Fedora&lt;&#x2F;li&gt;
+&lt;li&gt;CentOS&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I have worked with several different cloud platforms.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS&lt;&#x2F;li&gt;
+&lt;li&gt;Azure&lt;&#x2F;li&gt;
+&lt;li&gt;GCP&lt;&#x2F;li&gt;
+&lt;li&gt;Linode&lt;&#x2F;li&gt;
+&lt;li&gt;Gigalixir&lt;&#x2F;li&gt;
+&lt;li&gt;Heroku&lt;&#x2F;li&gt;
+&lt;li&gt;Terraform&lt;&#x2F;li&gt;
+&lt;li&gt;Render&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I am very comfortable working with operational tools, databases, caches, and other services.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ansible&lt;&#x2F;li&gt;
+&lt;li&gt;Apache&lt;&#x2F;li&gt;
+&lt;li&gt;Nginx&lt;&#x2F;li&gt;
+&lt;li&gt;Kafka&lt;&#x2F;li&gt;
+&lt;li&gt;Cassandra&lt;&#x2F;li&gt;
+&lt;li&gt;CouchDB&lt;&#x2F;li&gt;
+&lt;li&gt;MongoDB&lt;&#x2F;li&gt;
+&lt;li&gt;MySQL&lt;&#x2F;li&gt;
+&lt;li&gt;MariaDB&lt;&#x2F;li&gt;
+&lt;li&gt;PostgreSQL&lt;&#x2F;li&gt;
+&lt;li&gt;Memcached&lt;&#x2F;li&gt;
+&lt;li&gt;Redis&lt;&#x2F;li&gt;
+&lt;li&gt;Sidekiq&lt;&#x2F;li&gt;
+&lt;li&gt;Docker&lt;&#x2F;li&gt;
+&lt;li&gt;Kubernetes&lt;&#x2F;li&gt;
+&lt;li&gt;Consul&lt;&#x2F;li&gt;
+&lt;li&gt;Nix&lt;&#x2F;li&gt;
+&lt;li&gt;Datadog&lt;&#x2F;li&gt;
+&lt;li&gt;Grafana&lt;&#x2F;li&gt;
+&lt;li&gt;Sentry&lt;&#x2F;li&gt;
+&lt;li&gt;Splunk&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I have experience working with AppSec tools.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Burp Suite&lt;&#x2F;li&gt;
+&lt;li&gt;Bloodhound&lt;&#x2F;li&gt;
+&lt;li&gt;Metasploit&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Test Doubles</title>
+		<published>2022-09-20T00:00:00+00:00</published>
+		<updated>2022-09-20T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.tacoda.dev/posts/test-doubles/" type="text/html"/>
+		<id>https://www.tacoda.dev/posts/test-doubles/</id>
+		<content type="html">&lt;h1 id=&quot;types-of-test-doubles&quot;&gt;Types of Test Doubles&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dummy:&lt;&#x2F;strong&gt; It is used as a &lt;em&gt;placeholder&lt;&#x2F;em&gt; when an argument needs to be filled in.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Stub:&lt;&#x2F;strong&gt; It provides fake data to the SUT (System Under Test).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Spy&lt;&#x2F;strong&gt;: It records information about how the class is being used.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Mock:&lt;&#x2F;strong&gt; It defines an expectation of how it will be used. It will cause a failure if the expectation isn’t met.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Fake:&lt;&#x2F;strong&gt; It is an actual implementation of the contract but is unsuitable for production.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

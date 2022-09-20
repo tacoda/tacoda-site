@@ -28,26 +28,33 @@
                     <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
                       <ul>
                         <li class="nav">
-                            <a itemprop="url" href="https://www.tacoda.dev/">
-                                <span itemprop="name">Website</span>
-                            </a>
-                        </li>
-                        <li class="nav">
                             <a itemprop="url" href="/">
                                 <span itemprop="name">Home</span>
                             </a>
                         </li>
-                        {% if config.extra.github %}
+                        <li class="nav">
+                            <a itemprop="url" href="/about/">
+                                <span itemprop="name">About</span>
+                            </a>
+                        </li>
+                        {% set index = get_section(path="_index.md") %}
+                        {% for s in index.subsections %}
+                            {% set subsection = get_section(path=s) %}
+                            <li class="nav">
+                                <a itemprop="url" href="{{ subsection.permalink | safe}}">
+                                    <span itemprop="name">{{ subsection.title }}</span>
+                                </a>
+                            </li>
+                            {% endfor %}
+                            {% if config.extra.github %}
                         <li class="nav">
                             <a itemprop="url" href="https://github.com/{{ config.extra.github }}">
                                 <img class="icon" src="{{ config.base_url }}/icons/github.svg" alt="Github">
                             </a>
                         </li>
-                        {% endif %}
-                        {% if config.extra.twitter %}
                         <li class="nav">
-                            <a itemprop="url" href="https://twitter.com/{{ config.extra.twitter }}">
-                                <img class="icon" src="{{ config.base_url }}/icons/twitter.svg" alt="Twitter">
+                            <a itemprop="url" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+                                <span itemprop="name">RSS</span>
                             </a>
                         </li>
                         {% endif %}
@@ -57,20 +64,50 @@
             </header>
         {% endblock header %}
         {% block content %}
-        <main>
+            <main>
             {% block main %}
-            <h1>Ian's Digital Garden</h1>
+            <div>
+                <img
+                    alt="Gravatar"
+                    src="http://gravatar.com/avatar/0a09dcb201b488dece3b9e47e3f2443b"
+                    class="is-rounded"
+                />
+                <h1>Ian Johnson</h1>
+            </div>
             <div class="border"></div>
-                <ul>
-                {% set section = get_section(path="posts/_index.md") %}
-                {% for page in section.pages %}
-                    <li>
-                    <a href="{{ page.permalink | safe}}">
-                        {{ page.title }}
-                    </a>
-                    </li>
-                {% endfor %}
-                </ul>
+            <div>
+                <span>🥞</span>
+                <strong>Fullstack Web Engineer</strong>
+                <span>☁️</span>
+                <strong>Cloud Engineer</strong>
+                <span>🔒</span>
+                <strong>Application Security Engineer</strong>
+                <span>📖</span>
+                <strong>Open Source Contributor</strong>
+            </div>
+            <p>
+                I am a fullstack web developer with a penchant for Ruby on Rails and React.
+                Web application security is extremely interesting to me. Web applications have
+                a very unique attack surface, which has a large impact on business operations.
+                I am always interested in learning more about security and cloud computing.
+                I also enjoy contributing to open source projects.
+            </p>
+            <h2>Projects</h2>
+            <h3><a href="https://github.com/tacoda/wl">wl</a></h3>
+            <p>
+                WhoIs Lookup Tool
+            </p>
+            <h3><a href="https://github.com/tacoda/jaws">Jaws</a></h3>
+            <p>
+                AWS Command Line Tool
+            </p>
+            <h2>Open Source Contributions</h2>
+            <ul>
+                <li>fd</li>
+                <li>shellrb</li>
+                <li>ockam</li>
+                <li>casa</li>
+            </ul>
             {% endblock main %}
         </main>
         {% endblock content %}
@@ -80,6 +117,13 @@
             <div class="footer">
                 <small class="footer-left">
                     Copyright &copy; {{ config.extra.author }}
+                </small>
+                <small class="footer-right">
+                    <img
+                        alt="Gravatar"
+                        src="http://gravatar.com/avatar/0a09dcb201b488dece3b9e47e3f2443b"
+                        class="is-rounded"
+                    />
                 </small>
             </div>
         {% endblock footer %}

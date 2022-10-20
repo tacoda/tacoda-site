@@ -113,7 +113,7 @@ const projects = [
   },
   {
     text: "Flix",
-    url: "https://tacoda-flix.onrender.com",
+    url: "https://github.com/tacoda/flix",
     description:
       "Movie Database Web Application",
   },

@@ -212,7 +212,30 @@ const IndexPage = () => {
         </h2>
         <hr />
         <div class="columns">
-          {projects.map(proj => (
+          {projects.slice(0,3).map(proj => (
+            <div class="column is-one-third">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <a
+                      style={linkStyle}
+                      href={`${proj.url}`}
+                    >
+                      {proj.text}
+                    </a>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <p style={descriptionStyle}>{proj.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div class="columns">
+          {projects.slice(3,6).map(proj => (
             <div class="column is-one-third">
               <div class="card">
                 <header class="card-header">

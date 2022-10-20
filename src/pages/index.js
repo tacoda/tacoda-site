@@ -113,9 +113,33 @@ const projects = [
   },
   {
     text: "Flix",
-    url: "https://github.com/tacoda/flix",
+    url: "https://tacoda-flix.onrender.com",
     description:
       "Movie Database Web Application",
+  },
+  {
+    text: "Lark",
+    url: "https://github.com/tacoda/lark",
+    description:
+      "A Lisp Intepreter",
+  },
+  {
+    text: "Freight",
+    url: "https://github.com/tacoda/freight",
+    description:
+      "A fully-featured, configurable web server",
+  },
+  {
+    text: "Otto",
+    url: "https://github.com/tacoda/ottogen",
+    description:
+      "AsciiDoc static site generator",
+  },
+  {
+    text: "Reap",
+    url: "https://github.com/tacoda/reap",
+    description:
+      "An HTTP request CLI tool",
   },
   {
     text: "Jaws",

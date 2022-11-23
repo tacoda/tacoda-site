@@ -102,11 +102,7 @@ const langTags = [
   "PHP",
   "JavaScript",
   "CoffeeScript",
-  "TypeScript",
   "Elixir",
-  "Haskell",
-  "OCaml",
-  "Clojure",
   "Scheme",
   "Bash",
   "C",
@@ -114,8 +110,6 @@ const langTags = [
 ]
 
 const webTags = [
-  "NodeJS",
-  "Express",
   "Rails",
   "Flask",
   "Laravel",
@@ -123,11 +117,8 @@ const webTags = [
   "Rocket",
   "Phoenix",
   "OTP",
+  "jQuery",
   "React",
-  "LiveView",
-  "Elm",
-  "Vue",
-  "Svelte",
   "Bootstrap",
   "Bulma",
   "Tailwind",
@@ -139,7 +130,6 @@ const linuxTags = [
   "Ubuntu",
   "Fedora",
   "CentOS",
-  "FreeBSD",
 ]
 
 const cloudTags = [
@@ -156,30 +146,19 @@ const toolTags = [
   "Ansible",
   "Apache",
   "Nginx",
-  "Kafka",
-  "Cassandra",
-  "CouchDB",
-  "MongoDB",
   "MySQL",
   "MariaDB",
   "PostgreSQL",
-  "Memcached",
   "Redis",
   "Sidekiq",
   "Docker",
   "Kubernetes",
-  "Consul",
   "Nix",
   "Datadog",
   "Grafana",
   "Sentry",
   "Splunk",
-]
-
-const secTags = [
   "Burp",
-  "Bloodhound",
-  "Metasploit",
 ]
 
 // markup
@@ -279,14 +258,6 @@ const HireMePage = () => {
         </p>
         <div style={badgesListStyle}>
         {toolTags.map(tag => (
-          <span style={badgeStyle}>{tag}</span>
-        ))}
-        </div>
-        <p style={paragraphStyles}>
-          I have experience working with AppSec tools.
-        </p>
-        <div style={badgesListStyle}>
-        {secTags.map(tag => (
           <span style={badgeStyle}>{tag}</span>
         ))}
         </div>

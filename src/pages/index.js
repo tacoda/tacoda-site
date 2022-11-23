@@ -124,12 +124,6 @@ const projects = [
       "A Lisp Intepreter",
   },
   {
-    text: "Freight",
-    url: "https://github.com/tacoda/freight",
-    description:
-      "A fully-featured, configurable web server",
-  },
-  {
     text: "Otto",
     url: "https://github.com/tacoda/ottogen",
     description:
@@ -139,7 +133,7 @@ const projects = [
     text: "Reap",
     url: "https://github.com/tacoda/reap",
     description:
-      "An HTTP request CLI tool",
+      "A URL request CLI tool",
   },
   {
     text: "Jaws",

@@ -96,7 +96,7 @@ const links = [
   },
   {
     text: "Contact Me",
-    url: "mailto:ijohnson@tacoda.dev",
+    url: "mailto:tacoda@hey.com",
   },
   {
     text: "Hire Me",

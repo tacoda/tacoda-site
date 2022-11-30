@@ -111,12 +111,8 @@ const langTags = [
 
 const webTags = [
   "Rails",
-  "Flask",
-  "Laravel",
   "Actix",
   "Rocket",
-  "Phoenix",
-  "OTP",
   "jQuery",
   "React",
   "Bootstrap",
@@ -136,8 +132,6 @@ const cloudTags = [
   "AWS",
   "Azure",
   "GCP",
-  "Linode",
-  "Gigalixir",
   "Heroku",
   "Terraform",
 ]

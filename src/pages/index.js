@@ -162,9 +162,9 @@ const IndexPage = () => {
           </h1>
           <hr />
           <div class="container" style={titleStyle}>
-            🥞 Fullstack Web Engineer<br />
-            ☁️ Cloud Architect<br />
-            🔒 Web Application Security Specialist<br />
+	    🪄 Software Engineer<br />
+            🥞 Fullstack Web Developer<br />
+            🔒 Application Security Hobbyist<br />
             📖 Open Source Contributor<br />
           </div>
         </div>
@@ -196,8 +196,8 @@ const IndexPage = () => {
         <hr />
         <p style={paragraphStyles}>
           I am a fullstack web developer with a penchant for Ruby on Rails and React.
-          Web application security is extremely interesting to me. Web applications have
-          a very unique attack surface, which has a large impact on business operations.
+          Application security is something I am very focused on.
+	  Using Rust to explore building native programs has been a recent project of mine.
           I am always interested in learning more about security and cloud computing.
           I also enjoy contributing to open source projects.
         </p>

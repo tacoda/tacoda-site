@@ -97,35 +97,39 @@ const navStyle = {
 }
 
 const langTags = [
-  "Ruby",
-  "Python",
-  "PHP",
-  "JavaScript",
-  "CoffeeScript",
-  "Elixir",
-  "Scheme",
   "Bash",
   "C",
+  "Elixir",
+  "JavaScript",
+  "PHP",
+  "Python",
+  "Ruby",
   "Rust",
+  "Scheme",
 ]
 
 const webTags = [
-  "Rails",
   "Actix",
-  "Rocket",
-  "jQuery",
-  "React",
   "Bootstrap",
   "Bulma",
-  "Tailwind",
+  "Elm",
+  "OTP",
+  "Phoenix",
+  "Rails",
+  "React",
+  "Rocket",
   "Sass",
+  "Svelte",
+  "Tailwind",
+  "Yew",
+  "jQuery",
 ]
 
 const linuxTags = [
-  "Debian",
-  "Ubuntu",
-  "Fedora",
   "CentOS",
+  "Debian",
+  "Fedora",
+  "Ubuntu",
 ]
 
 const cloudTags = [
@@ -139,20 +143,20 @@ const cloudTags = [
 const toolTags = [
   "Ansible",
   "Apache",
-  "Nginx",
-  "MySQL",
+  "Burp",
+  "Datadog",
+  "Docker",
+  "Grafana",
+  "Kubernetes",
   "MariaDB",
+  "MySQL",
+  "Nginx",
+  "Nix",
   "PostgreSQL",
   "Redis",
-  "Sidekiq",
-  "Docker",
-  "Kubernetes",
-  "Nix",
-  "Datadog",
-  "Grafana",
   "Sentry",
+  "Sidekiq",
   "Splunk",
-  "Burp",
 ]
 
 // markup
@@ -174,9 +178,9 @@ const HireMePage = () => {
           </h1>
           <hr />
           <div class="container" style={titleStyle}>
-            🥞 Fullstack Web Engineer<br />
-            ☁️ Cloud Architect<br />
-            🔒 Web Application Security Specialist<br />
+	    🪄 Software Engineer<br />
+            🥞 Fullstack Web Developer<br />
+            🔒 Application Security Hobbyist<br />
             📖 Open Source Contributor<br />
           </div>
         </div>

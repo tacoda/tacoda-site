@@ -164,6 +164,7 @@ const IndexPage = () => {
           <div class="container" style={titleStyle}>
 	    🪄 Software Engineer<br />
             🥞 Fullstack Web Developer<br />
+	    ☁️  Cloud Practitioner<br />
             🔒 Application Security Hobbyist<br />
             📖 Open Source Contributor<br />
           </div>

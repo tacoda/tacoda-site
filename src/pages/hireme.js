@@ -180,6 +180,7 @@ const HireMePage = () => {
           <div class="container" style={titleStyle}>
 	    🪄 Software Engineer<br />
             🥞 Fullstack Web Developer<br />
+	    ☁️  Cloud Practitioner<br />
             🔒 Application Security Hobbyist<br />
             📖 Open Source Contributor<br />
           </div>
@@ -264,7 +265,7 @@ const HireMePage = () => {
         </h2>
         <hr />
         <p style={paragraphStyles}>
-          My interests include web application security, cloud computing, and applications of blockchain.
+          My interests include application security, cloud computing, and open source software.
         </p>
         <p style={paragraphStyles}>
           <Link to="/">Home</Link>

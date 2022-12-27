@@ -91,12 +91,24 @@ const navStyle = {
 // data
 const links = [
   {
-    text: "GitHub",
-    url: "https://github.com/tacoda",
+    text: "Blog",
+    url: "https://tacodadev.blogspot.com/",
   },
   {
     text: "Contact Me",
     url: "mailto:tacoda@hey.com",
+  },
+  {
+    text: "GitHub",
+    url: "https://github.com/tacoda",
+  },
+  {
+    text: "Exercism",
+    url: "https://exercism.org/profiles/tacoda",
+  },
+  {
+    text: "LinkedIn",
+    url: "https://www.linkedin.com/in/tacoda/",
   },
   {
     text: "Hire Me",
@@ -162,9 +174,9 @@ const IndexPage = () => {
           </h1>
           <hr />
           <div class="container" style={titleStyle}>
-	    🪄 Software Engineer<br />
+            🪄 Software Engineer<br />
             🥞 Fullstack Web Developer<br />
-	    ☁️  Cloud Practitioner<br />
+            ☁️  Cloud Practitioner<br />
             🔒 Application Security Hobbyist<br />
             📖 Open Source Contributor<br />
           </div>
@@ -173,7 +185,7 @@ const IndexPage = () => {
       <nav style={navStyle}>
         <div class="columns">
           {links.map(link => (
-            <div class="column is-one-third">
+            <div class="column is-one-sixth">
               <div class="card">
                 <div class="card-content">
                   <div class="content">
@@ -198,7 +210,7 @@ const IndexPage = () => {
         <p style={paragraphStyles}>
           I am a fullstack web developer with a penchant for Ruby on Rails and React.
           Application security is something I am very focused on.
-	  Using Rust to explore building native programs has been a recent project of mine.
+          Using Rust to explore building native programs has been a recent project of mine.
           I am always interested in learning more about security and cloud computing.
           I also enjoy contributing to open source projects.
         </p>
@@ -207,7 +219,7 @@ const IndexPage = () => {
         </h2>
         <hr />
         <div class="columns">
-          {projects.slice(0,3).map(proj => (
+          {projects.slice(0, 3).map(proj => (
             <div class="column is-one-third">
               <div class="card">
                 <header class="card-header">
@@ -230,7 +242,7 @@ const IndexPage = () => {
           ))}
         </div>
         <div class="columns">
-          {projects.slice(3,6).map(proj => (
+          {projects.slice(3, 6).map(proj => (
             <div class="column is-one-third">
               <div class="card">
                 <header class="card-header">
